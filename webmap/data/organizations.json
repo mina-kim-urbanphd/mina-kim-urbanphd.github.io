@@ -1,0 +1,800 @@
+[
+  {
+    "code": "C01",
+    "name": "칼폴라니사회경제연구소협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C02",
+    "name": "서울시민햇빛발전 협동조합",
+    "is_resident": true,
+    "category": "cc",
+    "sector": "Civil"
+  },
+  {
+    "code": "C03",
+    "name": "공익회계사네트워크 맑은",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C04",
+    "name": "난민인권센터",
+    "is_resident": true,
+    "category": "af",
+    "sector": "Government"
+  },
+  {
+    "code": "C05",
+    "name": "노무법인 의연",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C06",
+    "name": "시소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C07",
+    "name": "어라이즈오브젝트",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C08",
+    "name": "언더독스",
+    "is_resident": true,
+    "category": "fb",
+    "sector": "Civil"
+  },
+  {
+    "code": "C09",
+    "name": "콜라보커뮤니케이션즈",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C10",
+    "name": "티팟",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C100",
+    "name": "듣는연구소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C101",
+    "name": "맘스아지트",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C102",
+    "name": "모두의라이브방송 협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C103",
+    "name": "미래전통",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C104",
+    "name": "산림일자리발전소",
+    "is_resident": true,
+    "category": "ae",
+    "sector": "Government"
+  },
+  {
+    "code": "C105",
+    "name": "슬로푸드문화원",
+    "is_resident": true,
+    "category": "ca",
+    "sector": "Civil"
+  },
+  {
+    "code": "C106",
+    "name": "약속의자전거",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C107",
+    "name": "씨닷",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C108",
+    "name": "비건카페달냥",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C109",
+    "name": "다큐보리공장",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C11",
+    "name": "프로젝트C",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C110",
+    "name": "예술교육창작터 달집",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C111",
+    "name": "스튜디오메조",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C112",
+    "name": "씨네에그",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C113",
+    "name": "아이시티브릿지",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C114",
+    "name": "타래유니버스",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C12",
+    "name": "사진아카이브연구소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C13",
+    "name": "에이컴퍼니",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C14",
+    "name": "현실문화연구(출판사)",
+    "is_resident": true,
+    "category": "bd",
+    "sector": "Business"
+  },
+  {
+    "code": "C15",
+    "name": "비아이씨피쥐(BICPG)",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C16",
+    "name": "세눈컴퍼니",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C17",
+    "name": "영화제작소눈",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C18",
+    "name": "트루팍프로덕션",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C19",
+    "name": "시민방송",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C20",
+    "name": "물푸레생태교육센터",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C21",
+    "name": "디자인뤼",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C22",
+    "name": "에너지복지사회적협동조합",
+    "is_resident": true,
+    "category": "cc",
+    "sector": "Civil"
+  },
+  {
+    "code": "C23",
+    "name": "금자동이",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C24",
+    "name": "숨비",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C25",
+    "name": "터치포굿",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C26",
+    "name": "비건타이거",
+    "is_resident": true,
+    "category": "fb",
+    "sector": "Civil"
+  },
+  {
+    "code": "C27",
+    "name": "협동조합리쿱",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C28",
+    "name": "아름다운커피",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C29",
+    "name": "두꺼비하우징",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C30",
+    "name": "스페이스숨건축사사무소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C31",
+    "name": "이풀약초협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C32",
+    "name": "자인생태건축",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C33",
+    "name": "지식순환협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C34",
+    "name": "공익인권변호사모임 희망을만드는법",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C35",
+    "name": "평화교육프로젝트 모모",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C36",
+    "name": "에듀머니",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C37",
+    "name": "올더콘서트",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C38",
+    "name": "마을과사람",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C39",
+    "name": "노니논다",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C40",
+    "name": "착한책가게",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C41",
+    "name": "마커스랩",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C42",
+    "name": "오요리아시아",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C43",
+    "name": "빅이슈코리아",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C44",
+    "name": "감성붓다",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C45",
+    "name": "고무신학교",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C46",
+    "name": "너느로",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C47",
+    "name": "빛움",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C48",
+    "name": "사진방",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C49",
+    "name": "은평도서관마을사회적협동조합",
+    "is_resident": true,
+    "category": "cc",
+    "sector": "Civil"
+  },
+  {
+    "code": "C50",
+    "name": "히든북",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C51",
+    "name": "나를만나는사진수업",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C52",
+    "name": "케이로드넘버원",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C53",
+    "name": "이삭 아르테포베라",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C54",
+    "name": "뉴미디어아트공공미술실험",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C55",
+    "name": "자휴자족",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C56",
+    "name": "무엇이든 협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C57",
+    "name": "세상아이",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C58",
+    "name": "에코팜므",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C59",
+    "name": "오마이컴퍼니",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C60",
+    "name": "아시아공정무역네트워크",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C61",
+    "name": "노는엄마협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C62",
+    "name": "탠버린",
+    "is_resident": true,
+    "category": "fb",
+    "sector": "Civil"
+  },
+  {
+    "code": "C63",
+    "name": "굿앤컴퍼니",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C64",
+    "name": "마을무지개",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C65",
+    "name": "배리어프리영화위원회",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C66",
+    "name": "북센스",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C67",
+    "name": "한국청소년동아리연맹",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C68",
+    "name": "대안에너지기술연구소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C69",
+    "name": "마을기술센터핸즈",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C70",
+    "name": "비움과채움",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C71",
+    "name": "적정기술공방",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C72",
+    "name": "앙코르브라보노 협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C73",
+    "name": "한국공공관리연구원",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C74",
+    "name": "실버넷티비",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C75",
+    "name": "은빛기획",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C76",
+    "name": "프렌드아시아",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C77",
+    "name": "자바르떼",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C78",
+    "name": "모두를위한극장공정영화협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C79",
+    "name": "대안교육연대",
+    "is_resident": true,
+    "category": "cb",
+    "sector": "Civil"
+  },
+  {
+    "code": "C80",
+    "name": "마을공방사이",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C81",
+    "name": "인권도시연구소",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C82",
+    "name": "노동건강연대",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C83",
+    "name": "한국사회투자",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C84",
+    "name": "HBM 사회적협동조합(MTA 서울랩)",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C85",
+    "name": "한국아이티(IT)개발자 협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C86",
+    "name": "발전대안 피다",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C87",
+    "name": "어스맨",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C88",
+    "name": "법무법인더함",
+    "is_resident": true,
+    "category": "ca",
+    "sector": "Civil"
+  },
+  {
+    "code": "C89",
+    "name": "에이유디사회적협동조합",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C90",
+    "name": "위누",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C91",
+    "name": "비영리IT지원센터",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C92",
+    "name": "이야기꾼의책공연",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C93",
+    "name": "라이터스",
+    "is_resident": true,
+    "category": "ca",
+    "sector": "Civil"
+  },
+  {
+    "code": "C94",
+    "name": "비에이티(BAT)",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C95",
+    "name": "히든앤코",
+    "is_resident": true,
+    "category": "ca",
+    "sector": "Civil"
+  },
+  {
+    "code": "C96",
+    "name": "살림의료복지사회적협동조합",
+    "is_resident": true,
+    "category": "cc",
+    "sector": "Civil"
+  },
+  {
+    "code": "C97",
+    "name": "세라워크",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C98",
+    "name": "페어스페이스",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  },
+  {
+    "code": "C99",
+    "name": "엔피오교육센터",
+    "is_resident": true,
+    "category": "fa",
+    "sector": "Civil"
+  }
+]

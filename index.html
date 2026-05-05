@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mina Kim | Urban Studies & Regional Innovation</title>
+  <meta name="description" content="Mina Kim - Ph.D. in Urban Studies, Portland State University. Research on regional innovation policy, economic geography, and network governance.">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.7;
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: #0047AB; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ::selection { background: #0047AB; color: #fff; }
+
+    :root {
+      --blue: #0047AB;
+      --black: #1a1a1a;
+      --gray: #666;
+      --light-gray: #999;
+      --border: #e5e5e5;
+      --bg: #fafafa;
+    }
+
+    /* ===== Layout ===== */
+    .page { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+
+    /* ===== Nav ===== */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 820px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 52px;
+    }
+    .nav-name {
+      font-size: 0.9rem; font-weight: 600; color: var(--black);
+      letter-spacing: -0.01em;
+    }
+    .nav-links { display: flex; gap: 24px; list-style: none; }
+    .nav-links a {
+      font-size: 0.78rem; color: var(--gray); font-weight: 400;
+      letter-spacing: 0.02em; text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--black); text-decoration: none; }
+    .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 6px; }
+    .nav-toggle span { display: block; width: 18px; height: 1.5px; background: var(--black); margin: 4px 0; }
+
+    /* ===== Hero / About ===== */
+    .hero {
+      padding: 80px 0 64px;
+      display: grid; grid-template-columns: 180px 1fr; gap: 48px;
+      align-items: start;
+    }
+    .hero-photo {
+      width: 180px; height: 240px; border-radius: 4px;
+      background: var(--bg); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-photo svg { width: 48px; height: 48px; color: #ccc; }
+    .hero-info h1 {
+      font-family: 'Lora', serif;
+      font-size: 2rem; font-weight: 600; letter-spacing: -0.02em;
+      margin-bottom: 8px; line-height: 1.2;
+    }
+    .hero-affiliation {
+      font-size: 0.9rem; color: var(--gray); margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .hero-bio {
+      font-size: 0.9rem; color: var(--black); line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .hero-links {
+      display: flex; gap: 16px; flex-wrap: wrap;
+    }
+    .hero-links a {
+      font-size: 0.78rem; color: var(--gray); border: 1px solid var(--border);
+      padding: 4px 12px; border-radius: 3px; transition: all 0.2s;
+      text-decoration: none;
+    }
+    .hero-links a:hover {
+      color: var(--black); border-color: var(--black);
+      text-decoration: none;
+    }
+
+    /* ===== Section ===== */
+    section { padding: 48px 0; border-top: 1px solid var(--border); }
+    .sec-title {
+      font-family: 'Lora', serif;
+      font-size: 1.3rem; font-weight: 600; letter-spacing: -0.01em;
+      margin-bottom: 32px; color: var(--black);
+    }
+
+    /* ===== Research Interests ===== */
+    .research-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    }
+    .research-item h4 {
+      font-size: 0.88rem; font-weight: 600; margin-bottom: 4px;
+    }
+    .research-item p {
+      font-size: 0.82rem; color: var(--gray); line-height: 1.6;
+    }
+
+    /* ===== Research Tabs ===== */
+    .research-tabs {
+      display: flex; gap: 0; margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .research-tab {
+      background: none; border: none; cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem; font-weight: 500; color: var(--light-gray);
+      padding: 8px 20px 10px; position: relative;
+      transition: color 0.2s;
+    }
+    .research-tab:hover { color: var(--black); }
+    .research-tab.active {
+      color: var(--black);
+    }
+    .research-tab.active::after {
+      content: ''; position: absolute;
+      bottom: -1px; left: 0; right: 0;
+      height: 2px; background: var(--blue);
+    }
+    .research-panel { display: none; }
+    .research-panel.active { display: block; }
+
+    /* ===== Dissertation Card ===== */
+    .dissertation-card {
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 32px; background: var(--bg);
+    }
+    .diss-header h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem; font-weight: 600; color: var(--black);
+      margin-bottom: 6px;
+    }
+    .diss-subtitle {
+      font-size: 0.82rem; color: var(--gray); margin-bottom: 20px;
+    }
+    .diss-abstract {
+      font-size: 0.88rem; color: var(--black); line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .diss-keywords {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;
+    }
+    .diss-keywords span {
+      font-size: 0.72rem; color: var(--gray);
+      border: 1px solid var(--border); padding: 3px 10px;
+      border-radius: 3px;
+    }
+    .diss-link {
+      display: inline-block; font-size: 0.85rem; font-weight: 500;
+      color: #fff; background: var(--blue);
+      padding: 10px 24px; border-radius: 4px;
+      transition: background 0.2s; text-decoration: none;
+    }
+    .diss-link:hover {
+      background: #003488; text-decoration: none;
+    }
+
+    /* ===== Publications ===== */
+    .pub-category {
+      font-size: 0.72rem; font-weight: 600; color: var(--blue);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 16px; margin-top: 32px;
+    }
+    .pub-category:first-of-type { margin-top: 0; }
+    .pub-item {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .pub-item:last-child { border-bottom: none; }
+    .pub-title {
+      font-size: 0.88rem; font-weight: 400; color: var(--black);
+      line-height: 1.6; margin-bottom: 4px;
+    }
+    .pub-title em { font-family: 'Lora', serif; }
+    .pub-venue {
+      font-size: 0.78rem; color: var(--light-gray); font-style: italic;
+    }
+    .pub-status {
+      display: inline-block; font-size: 0.68rem; font-weight: 500;
+      padding: 2px 8px; border-radius: 3px; margin-left: 8px;
+      vertical-align: middle;
+    }
+    .status-review { background: #fff3e0; color: #e65100; }
+    .status-rr { background: #e8f5e9; color: #2e7d32; }
+    .status-wp { background: #f5f5f5; color: #888; }
+
+    /* ===== Education ===== */
+    .edu-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr auto; gap: 16px;
+    }
+    .edu-item:last-child { border-bottom: none; }
+    .edu-degree {
+      font-size: 0.88rem; font-weight: 500; color: var(--black);
+      margin-bottom: 2px;
+    }
+    .edu-school {
+      font-size: 0.82rem; color: var(--gray);
+    }
+    .edu-field {
+      font-size: 0.78rem; color: var(--light-gray); margin-top: 2px;
+    }
+    .edu-year {
+      font-size: 0.82rem; color: var(--light-gray); white-space: nowrap;
+      text-align: right;
+    }
+
+    /* ===== Experience ===== */
+    .exp-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .exp-item:last-child { border-bottom: none; }
+    .exp-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      margin-bottom: 4px; gap: 16px;
+    }
+    .exp-role { font-size: 0.88rem; font-weight: 500; color: var(--black); }
+    .exp-date { font-size: 0.78rem; color: var(--light-gray); white-space: nowrap; }
+    .exp-org { font-size: 0.82rem; color: var(--gray); margin-bottom: 6px; }
+    .exp-desc {
+      font-size: 0.8rem; color: var(--light-gray); line-height: 1.6;
+    }
+
+    /* ===== Teaching ===== */
+    .teach-item {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr auto; gap: 16px;
+    }
+    .teach-item:last-child { border-bottom: none; }
+    .teach-name { font-size: 0.85rem; color: var(--black); }
+    .teach-tool { font-size: 0.75rem; color: var(--light-gray); }
+
+    /* ===== Presentations ===== */
+    .pres-item {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr auto; gap: 16px;
+    }
+    .pres-item:last-child { border-bottom: none; }
+    .pres-title { font-size: 0.85rem; color: var(--black); line-height: 1.5; }
+    .pres-venue { font-size: 0.75rem; color: var(--light-gray); }
+    .pres-year { font-size: 0.78rem; color: var(--light-gray); white-space: nowrap; }
+
+    /* ===== Awards ===== */
+    .award-item {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr auto; gap: 16px;
+    }
+    .award-item:last-child { border-bottom: none; }
+    .award-name { font-size: 0.85rem; color: var(--black); }
+    .award-org { font-size: 0.75rem; color: var(--light-gray); }
+    .award-year { font-size: 0.78rem; color: var(--light-gray); }
+
+    /* ===== Skills ===== */
+    .skills-grid {
+      display: grid; grid-template-columns: 120px 1fr; gap: 12px 24px;
+    }
+    .skill-label {
+      font-size: 0.78rem; font-weight: 600; color: var(--black);
+      padding: 6px 0;
+    }
+    .skill-value {
+      font-size: 0.82rem; color: var(--gray); padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ===== Contact ===== */
+    .contact-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 32px;
+    }
+    .contact-item-label {
+      font-size: 0.72rem; font-weight: 600; color: var(--light-gray);
+      letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px;
+    }
+    .contact-item-value {
+      font-size: 0.88rem; color: var(--black);
+    }
+
+    /* ===== Experience Tabs ===== */
+    .exp-tabs {
+      display: flex; gap: 0; margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .exp-tab {
+      background: none; border: none; cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem; font-weight: 500; color: var(--light-gray);
+      padding: 8px 20px 10px; position: relative;
+      transition: color 0.2s;
+    }
+    .exp-tab:hover { color: var(--black); }
+    .exp-tab.active { color: var(--black); }
+    .exp-tab.active::after {
+      content: ''; position: absolute;
+      bottom: -1px; left: 0; right: 0;
+      height: 2px; background: var(--blue);
+    }
+    .exp-panel { display: none; }
+    .exp-panel.active { display: block; }
+
+    /* ===== Portfolio ===== */
+    .portfolio-grid {
+      display: flex; flex-direction: column; gap: 48px;
+    }
+    .portfolio-card {
+      border: 1px solid var(--border); border-radius: 8px;
+      overflow: hidden; background: #fff;
+    }
+    .portfolio-card-header {
+      padding: 24px 28px 20px;
+    }
+    .portfolio-card-header h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem; font-weight: 600; color: var(--black);
+      margin-bottom: 6px;
+    }
+    .portfolio-meta {
+      font-size: 0.78rem; color: var(--light-gray); margin-bottom: 12px;
+    }
+    .portfolio-desc {
+      font-size: 0.85rem; color: var(--gray); line-height: 1.7;
+    }
+    .portfolio-tags {
+      display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px;
+    }
+    .portfolio-tags span {
+      font-size: 0.68rem; color: var(--blue); background: #f0f4ff;
+      padding: 2px 10px; border-radius: 3px; font-weight: 500;
+    }
+    .portfolio-images {
+      display: grid; gap: 2px; padding: 0 2px 2px;
+    }
+    .portfolio-images.cols-2 { grid-template-columns: 1fr 1fr; }
+    .portfolio-images.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+    .portfolio-images.cols-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .portfolio-images img {
+      width: 100%; height: 200px; object-fit: cover; display: block;
+      cursor: pointer; transition: opacity 0.2s;
+      border-radius: 4px;
+    }
+    .portfolio-images img:hover { opacity: 0.85; }
+    .portfolio-images img.tall { height: 280px; }
+
+    /* Lightbox */
+    .lightbox {
+      display: none; position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.9); align-items: center; justify-content: center;
+      cursor: zoom-out;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 90vw; max-height: 90vh; object-fit: contain;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 640px) {
+      .portfolio-images.cols-3,
+      .portfolio-images.cols-4 { grid-template-columns: 1fr 1fr; }
+      .portfolio-images img { height: 140px; }
+      .portfolio-images img.tall { height: 200px; }
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+    }
+    footer p { font-size: 0.72rem; color: var(--light-gray); }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; gap: 24px; justify-items: center; text-align: center; }
+      .hero-links { justify-content: center; }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex; flex-direction: column; position: absolute;
+        top: 52px; left: 0; right: 0; background: #fff;
+        padding: 16px 24px; gap: 12px;
+        border-bottom: 1px solid var(--border);
+      }
+      .nav-toggle { display: block; }
+      .research-grid { grid-template-columns: 1fr; }
+      .edu-item { grid-template-columns: 1fr; }
+      .edu-year { text-align: left; }
+      .exp-header { flex-direction: column; gap: 2px; }
+      .teach-item { grid-template-columns: 1fr; }
+      .pres-item { grid-template-columns: 1fr; }
+      .award-item { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-name" style="text-decoration:none;">Mina Kim</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+
+<!-- Hero / About -->
+<section class="hero" id="about" style="border-top: none;">
+  <div class="hero-photo">
+    <img src="assets/profile.jpg" alt="Mina Kim">
+  </div>
+  <div class="hero-info">
+    <h1>Mina Kim</h1>
+    <div class="hero-affiliation">
+      Ph.D. in Urban Studies<br>
+      Portland State University
+    </div>
+    <p class="hero-bio">
+      I study how regional innovation ecosystems emerge and evolve through network governance,
+      with a focus on agglomeration economies in social innovation clusters. My work integrates
+      economic geography, public administration, and data science (GIS, text analysis, network analysis)
+      to understand how governments, universities, and communities co-create innovation.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:daryk1002@gmail.com">Email</a>
+      <a href="#">CV (PDF)</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education">
+  <h2 class="sec-title">Education</h2>
+  <div class="edu-item">
+    <div>
+      <div class="edu-degree">Ph.D. in Urban Studies</div>
+      <div class="edu-school">Portland State University</div>
+      <div class="edu-field">Regional Innovation Policy, Economic Geography, Collaborative Governance</div>
+    </div>
+    <div class="edu-year">2025</div>
+  </div>
+  <div class="edu-item">
+    <div>
+      <div class="edu-degree">Graduate Certificate in GIS</div>
+      <div class="edu-school">Portland State University</div>
+    </div>
+    <div class="edu-year">2023</div>
+  </div>
+  <div class="edu-item">
+    <div>
+      <div class="edu-degree">MPA, Public Administration</div>
+      <div class="edu-school">Korea University</div>
+    </div>
+    <div class="edu-year">2018</div>
+  </div>
+  <div class="edu-item">
+    <div>
+      <div class="edu-degree">BA, Economics</div>
+      <div class="edu-school">Korea University</div>
+    </div>
+    <div class="edu-year">2014</div>
+  </div>
+</section>
+
+<!-- Research -->
+<section id="research">
+  <h2 class="sec-title">Research</h2>
+
+  <div class="research-tabs">
+    <button class="research-tab active" data-tab="interests">Interests</button>
+    <button class="research-tab" data-tab="dissertation">Dissertation</button>
+    <button class="research-tab" data-tab="publications">Publications</button>
+    <button class="research-tab" data-tab="presentations">Presentations</button>
+  </div>
+
+  <div class="research-panel active" id="panel-interests">
+    <div class="research-grid">
+      <div class="research-item">
+        <h4>Regional Innovation Policy</h4>
+        <p>Innovation ecosystems, social innovation clusters, agglomeration economies, smart city policy</p>
+      </div>
+      <div class="research-item">
+        <h4>Economic Geography</h4>
+        <p>Spatial disparities in innovation, urban agglomeration, technology diffusion, regional development</p>
+      </div>
+      <div class="research-item">
+        <h4>Collaborative Governance</h4>
+        <p>Co-creation governance, collaborative networks, university-community partnerships, co-production</p>
+      </div>
+      <div class="research-item">
+        <h4>International Development</h4>
+        <p>Official Development Assistance (ODA), ICT for development, program evaluation, community development</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-panel" id="panel-publications">
+    <div class="pub-category">Under Review / Revise & Resubmit</div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        <strong>M. Kim</strong>, "State-Enabled Generativity: Managing Structural Tensions and Network Evolution in Co-creation Governance"
+        <span class="pub-status status-review">Under Review</span>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        <strong>M. Kim</strong> & G. Schrock, "Networks, Diversity, and Survival in a Social Innovation Cluster: Evidence from a Government-Led Urban Agglomeration"
+        <span class="pub-status status-rr">R&R</span>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        <strong>M. Kim</strong> & NH. Ki, "Institutional Infrastructure and Co-production in Privatized Governance"
+        <span class="pub-status status-review">Under Review</span>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        <strong>M. Kim</strong>, H. Chang, & Y. Kim, "What Justice Underlies Flood Policy? Institutional Embeddedness of Expert Belief Systems across Six Cities in the US and East Asia"
+        <span class="pub-status status-review">Under Review</span>
+      </div>
+    </div>
+
+    <div class="pub-category">Working Papers</div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        <strong>M. Kim</strong> & G. Schrock, "Spatial Disparities in Innovation Capability: An AI-Driven Analysis of U.S. Manufacturing Extension Partnership (MEP)"
+        <span class="pub-status status-wp">Working Paper</span>
+      </div>
+    </div>
+
+    <div class="pub-category">Published</div>
+
+    <div class="pub-item">
+      <div class="pub-title">
+        S. Lee, YJ. Ock, <strong>M. Kim</strong>, and G. Schrock, "The Regional Uneven Development and the State Intervention to Reshape the Spatial Hierarchy"
+      </div>
+      <div class="pub-venue">International Journal of Regional Development, 8(2), 2021</div>
+    </div>
+  </div>
+
+  <div class="research-panel" id="panel-dissertation">
+    <div class="dissertation-card">
+      <div class="diss-header">
+        <h3>Agglomeration Economies in Social Economy Clusters</h3>
+        <p class="diss-subtitle">Networks and Agglomeration Dynamics in a State-Led Social Innovation Cluster</p>
+      </div>
+      <p class="diss-abstract">
+        How does government intervention shape network structure and the dynamics that flow through it?
+        This dissertation examines Seoul Innovation Park, a 100,000 m² social innovation cluster where
+        approximately 600 social economy organizations formed partnerships from 2015 to 2020. Through
+        social network analysis, survival modeling, and in-depth interviews, it investigates three dimensions:
+        the evolution of governance networks, the relationship between network diversity and organizational
+        survival, and the agglomeration mechanisms of matching, sharing, and learning.
+      </p>
+      <div class="diss-keywords">
+        <span>Social Innovation</span>
+        <span>Collaborative Governance</span>
+        <span>Agglomeration Economies</span>
+        <span>Organizational Survival</span>
+      </div>
+      <a href="webmap/index.html" class="diss-link" target="_blank">
+        Explore the Interactive Network Map →
+      </a>
+    </div>
+  </div>
+  <div class="research-panel" id="panel-presentations">
+    <div class="pres-item">
+      <div>
+        <div class="pres-title">"Hybrid Platform Territory and Innovative Citizenship"</div>
+        <div class="pres-venue">American Association of Geographers</div>
+      </div>
+      <div class="pres-year">2026</div>
+    </div>
+    <div class="pres-item">
+      <div>
+        <div class="pres-title">"Network Diversity and Organizational Survival in Seoul Innovation Park"</div>
+        <div class="pres-venue">Association of Collegiate Schools of Planning</div>
+      </div>
+      <div class="pres-year">2025</div>
+    </div>
+    <div class="pres-item">
+      <div>
+        <div class="pres-title">"Centering Work: Manufacturing Extension as a Workforce Intermediary"</div>
+        <div class="pres-venue">Association of Collegiate Schools of Planning</div>
+      </div>
+      <div class="pres-year">2023</div>
+    </div>
+    <div class="pres-item">
+      <div>
+        <div class="pres-title">"Regional Collaborative Network Capacity for Co-production: The Role of University"</div>
+        <div class="pres-venue">Urban Affairs Association</div>
+      </div>
+      <div class="pres-year">2023</div>
+    </div>
+    <div class="pres-item">
+      <div>
+        <div class="pres-title">"The Multi-layer Role of Government in Social Innovation Network"</div>
+        <div class="pres-venue">Association of Collegiate Schools of Planning</div>
+      </div>
+      <div class="pres-year">2021</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <h2 class="sec-title">Experience</h2>
+  <div class="exp-tabs">
+    <button class="exp-tab active" data-tab="employment">Employment</button>
+    <button class="exp-tab" data-tab="project">Project</button>
+    <button class="exp-tab" data-tab="fellowship">Fellowship</button>
+  </div>
+
+  <div id="exp-employment" class="exp-panel active">
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Research Fellow</span>
+        <span class="exp-date">Aug 2025 – Present</span>
+      </div>
+      <div class="exp-org">Portland State University, Portland, OR</div>
+      <div class="exp-desc">Housing equity research with Washington County Housing Department through data analysis, Q methodology, and focus group interviews. GIS-based spatial analysis integrating SHS program data with ACS socioeconomic indicators.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Research Assistant</span>
+        <span class="exp-date">Dec 2024 – Jun 2025</span>
+      </div>
+      <div class="exp-org">Population Research Center, Portland State University</div>
+      <div class="exp-desc">Housing identification through GIS and multispectral image classification. Forecast report production using R and Knitr for local government clients.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Founding Partner</span>
+        <span class="exp-date">Oct 2024 – Present</span>
+      </div>
+      <div class="exp-org">Team Sailors Consulting, Seoul, South Korea</div>
+      <div class="exp-desc">Leading data-based project management and research for ICT-related Official Development Assistance (ODA) bids, focusing on community and entrepreneurship development.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Teaching Assistant</span>
+        <span class="exp-date">Sep 2023 – Jun 2024</span>
+      </div>
+      <div class="exp-org">Portland State University, Portland, OR</div>
+      <div class="exp-desc">USP 515 Economic Applications to Urban Studies · USP 452/531 GIS for Community Development/Planners (ArcGIS Pro) · USP 535 Planning Methods II (R)</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Research Assistant</span>
+        <span class="exp-date">Sep 2019 – Jun 2024</span>
+      </div>
+      <div class="exp-org">Portland State University, Portland, OR</div>
+      <div class="exp-desc">Explored "Urban Innovation" in academic literature and urban planning reports, analyzing connections to technology and social innovation from an economic geography perspective. Conducted text analysis on MEP advanced technology and workforce development training (2011–2021) in collaboration with UNC research team, and performed spatial analysis integrating client ZIP code data with ACS socioeconomic indicators.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Researcher</span>
+        <span class="exp-date">Feb 2018 – Feb 2019</span>
+      </div>
+      <div class="exp-org">Korea Institute of S&amp;T Evaluation and Planning (KISTEP), Seoul, South Korea</div>
+      <div class="exp-desc">Policy analysis supporting Korean government's development policies on smart cities, IoT, AI, autonomous vehicles, and technology entrepreneurship.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Program Coordinator</span>
+        <span class="exp-date">Mar 2014 – Mar 2015</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Dili, Timor-Leste</div>
+      <div class="exp-desc">Monitoring and evaluation of development projects at the Timor-Leste KOICA office.</div>
+    </div>
+  </div>
+
+  <div id="exp-project" class="exp-panel">
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Consultant</span>
+        <span class="exp-date">Sep 2025 – Present</span>
+      </div>
+      <div class="exp-org">Seoul Metropolitan Government, Seoul, South Korea</div>
+      <div class="exp-desc">Data analysis and interviews to support consulting on Seoul Metropolitan Government's e-government ODA strategies toward Asia.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Performance Management Specialist</span>
+        <span class="exp-date">Jan 2025</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Bangladesh</div>
+      <div class="exp-desc">Preliminary research and co-authored Project Document (PD) for "Innovative Rural Community Development Project in Bangladesh."</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Performance Management Specialist</span>
+        <span class="exp-date">Dec 2024</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Colda, Senegal</div>
+      <div class="exp-desc">Preliminary research and co-authored Project Document (PD) for "Innovative Rural Community Development Project in Senegal."</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Performance Management Specialist</span>
+        <span class="exp-date">Nov 2024</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Ha Giang, Vietnam</div>
+      <div class="exp-desc">Preliminary research and co-authored Project Document (PD) for "Innovative Rural Community Development Project in Vietnam."</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Performance Management Specialist</span>
+        <span class="exp-date">Aug 2024</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Mozambique</div>
+      <div class="exp-desc">Co-authored Project Concept Paper (PCP) for "e-Government Capacity Building through Establishment of a Digital Training Center in Mozambique."</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Researcher</span>
+        <span class="exp-date">Sep 2020</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Indonesia</div>
+      <div class="exp-desc">Research on "Digital divide in Indonesia and ICT international development projects" using GIS-based digital capacity assessment.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Performance Management Specialist</span>
+        <span class="exp-date">Jul 2019</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Quirino, Philippines</div>
+      <div class="exp-desc">End-of-Project Evaluation of Integrated Agricultural Development Project in Quirino, Philippines.</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Evaluation Assistant</span>
+        <span class="exp-date">Jun 2019</span>
+      </div>
+      <div class="exp-org">Korea International Cooperation Agency (KOICA), Mongolia</div>
+      <div class="exp-desc">End-of-Project Evaluation of the Project for Establishment of a Master Plan for Mineral Resources, Infrastructure Development, and Financing Requirements of Mongolia.</div>
+    </div>
+  </div>
+
+  <div id="exp-fellowship" class="exp-panel">
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Seoul Metropolitan Research Fellowship</span>
+        <span class="exp-date">2023</span>
+      </div>
+      <div class="exp-org">Seoul Institute, South Korea</div>
+      <div class="exp-desc">"Research on young social entrepreneurs' perception of attractiveness of Seong-su, Seoul"</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Compass Fellowship</span>
+        <span class="exp-date">2023</span>
+      </div>
+      <div class="exp-org">North Star Civic Foundation, US</div>
+      <div class="exp-desc">"People experiencing winter unsheltered homelessness in the Portland tri-county area: spatial analysis"</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Social Value Enhancement Studies Fellowship</span>
+        <span class="exp-date">2023</span>
+      </div>
+      <div class="exp-org">Center for Social Value Enhancement Studies, South Korea</div>
+      <div class="exp-desc">"Regional vulnerability and coproduction: the role of university and community capital"</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Graduate Grants for Research in Urban Resilience</span>
+        <span class="exp-date">2021</span>
+      </div>
+      <div class="exp-org">Urban Resilience to Extremes Sustainability Research Network, US</div>
+      <div class="exp-desc">"Cross-city comparison of experts' perception on flood risk management"</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="exp-role">Asia Young Activist Researcher Fellowship</span>
+        <span class="exp-date">2020</span>
+      </div>
+      <div class="exp-org">Seoul Metropolitan Government, South Korea</div>
+      <div class="exp-desc">"Social Innovation Network in Seoul Innovation Park, South Korea"</div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+  <h2 class="sec-title">Portfolio</h2>
+  <div class="portfolio-grid">
+
+    <!-- Washington County Housing Equity -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>Housing Equity Research: Asian Residents in Washington County</h3>
+        <div class="portfolio-meta">Washington County Housing Department / Portland State University &middot; 2025</div>
+        <p class="portfolio-desc">Investigated disparities in housing service access among Asian residents in Washington County through mixed methods. Conducted quantitative analysis of Representation Index across Coordinated Entry, Homeless Programs, and Rental Assistance using SHS program data linked with ACS indicators, combined with Q Methodology and focus group interviews to identify structural barriers including language exclusion, digital access gaps, and institutional distrust.</p>
+        <div class="portfolio-tags">
+          <span>Housing Equity</span>
+          <span>Q Methodology</span>
+          <span>GIS</span>
+          <span>Mixed Methods</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-4">
+        <img src="assets/Washington 1.jpg" alt="Literature review and quantitative analysis of Asian housing service participation">
+        <img src="assets/Washington 2.jpg" alt="Demographic characteristics and program service analysis">
+        <img src="assets/Washington 3.jpg" alt="Q Methodology design and factor analysis">
+        <img src="assets/Washington 4.jpg" alt="Barrier analysis and qualitative findings">
+      </div>
+    </div>
+
+    <!-- MEP Research -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>Manufacturing Extension Partnership (MEP) Research</h3>
+        <div class="portfolio-meta">NIST / Portland State University &middot; 2022 – 2024</div>
+        <p class="portfolio-desc">Developed a Manufacturing Innovation Index to assess technology adoption and workforce development across the MEP national network. Analyzed service delivery patterns by state using text analysis on project records and mapped spatial variation in advanced technology adoption.</p>
+        <div class="portfolio-tags">
+          <span>Text Analysis</span>
+          <span>GIS</span>
+          <span>Innovation Index</span>
+          <span>Policy Evaluation</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-4">
+        <img src="assets/MEP1.png" alt="Made with Equity project overview">
+        <img src="assets/MEP2.png" alt="Research team">
+        <img src="assets/MEP3.png" alt="AT vs WD Index scatter plot">
+        <img src="assets/MEP4.png" alt="AT Projects by category and center maps">
+      </div>
+    </div>
+
+    <!-- EDA -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>Durham-Chapel Hill MSA Regional Economic Strategy</h3>
+        <div class="portfolio-meta">Portland State University, USP 517 Urban Economic Policy &middot; 2021</div>
+        <p class="portfolio-desc">Conducted a comprehensive regional economic analysis of the Durham-Chapel Hill Metropolitan Statistical Area, including shift-share analysis, migration trends, occupation and worker analysis, and innovation environment assessment using the Research Triangle framework.</p>
+        <div class="portfolio-tags">
+          <span>Economic Analysis</span>
+          <span>Shift-Share</span>
+          <span>Regional Strategy</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-3">
+        <img src="assets/EDA1.png" alt="Durham-Chapel Hill MSA overview">
+        <img src="assets/EDA2.png" alt="Migration and employment analysis">
+        <img src="assets/EDA3.png" alt="Innovation environment assessment">
+      </div>
+    </div>
+
+    <!-- Fellowship / Homelessness -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>Unsheltered Homelessness Service Area Analysis</h3>
+        <div class="portfolio-meta">North Star Civic Foundation Compass Fellows / Portland State University &middot; 2023</div>
+        <p class="portfolio-desc">Examined spatial accessibility to shelters for people experiencing winter unsheltered homelessness in Multnomah County, Portland. Defined service areas based on shelter proximity and MAX transit stations, and profiled subpopulation characteristics within and outside service areas.</p>
+        <div class="portfolio-tags">
+          <span>Spatial Analysis</span>
+          <span>GIS</span>
+          <span>Service Area</span>
+          <span>Social Equity</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-2">
+        <img src="assets/Fellowship1.png" alt="Homelessness service area map" class="tall">
+        <img src="assets/Fellowship2.png" alt="Service area subpopulation profiles" class="tall">
+      </div>
+    </div>
+
+    <!-- Mongolia Evaluation -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>End-of-Project Evaluation: Mongolia Mineral Resources Master Plan</h3>
+        <div class="portfolio-meta">KOICA / Ministry of Mineral Resources, Mongolia &middot; 2019</div>
+        <p class="portfolio-desc">Conducted end-of-project evaluation for the establishment of a master plan for mineral resources, infrastructure development, and financing requirements of Mongolia. Assessed relevance, effectiveness, efficiency, impact, and sustainability using DAC evaluation criteria.</p>
+        <div class="portfolio-tags">
+          <span>Program Evaluation</span>
+          <span>International Development</span>
+          <span>DAC Criteria</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-1">
+        <img src="assets/Evaluation1.png" alt="Mongolia evaluation brief">
+      </div>
+    </div>
+
+    <!-- Indonesia ICT -->
+    <div class="portfolio-card">
+      <div class="portfolio-card-header">
+        <h3>Digital Divide in Indonesia: ICT International Development</h3>
+        <div class="portfolio-meta">KOICA / International Development Research &middot; 2020</div>
+        <p class="portfolio-desc">Analyzed Indonesia's digital divide using ITU ICT Development Index and WEF Network Readiness Index profiles. Conducted SWOT analysis to identify strategic entry points for ICT-related international development cooperation projects.</p>
+        <div class="portfolio-tags">
+          <span>SWOT Analysis</span>
+          <span>ICT Development</span>
+          <span>International Development</span>
+        </div>
+      </div>
+      <div class="portfolio-images cols-2">
+        <img src="assets/Evaluation2.png" alt="Indonesia ICT development index">
+        <img src="assets/Evaluation3.png" alt="Indonesia network readiness index">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div><!-- .page -->
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <img src="" alt="Enlarged view" id="lightbox-img">
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="page">
+    <p>&copy; 2025 Mina Kim. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+  document.querySelectorAll('#navLinks a').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+  });
+
+  // Research tabs
+  document.querySelectorAll('.research-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.research-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.research-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Experience tabs
+  document.querySelectorAll('.exp-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.exp-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.exp-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('exp-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Portfolio lightbox
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.portfolio-images img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.add('open');
+    });
+  });
+  lightbox.addEventListener('click', () => lightbox.classList.remove('open'));
+</script>
+
+</body>
+</html>

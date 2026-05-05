@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Seoul Innovation Park: Networks and Agglomeration Dynamics in a Social Economy Cluster</title>
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Fixed map background (hidden during narrative sections) -->
+    <div id="map"></div>
+    <canvas id="arc-canvas"></canvas>
+
+    <!-- Scroll sections -->
+    <div class="scroll-container">
+
+        <!-- ==================== HERO ==================== -->
+        <section class="scroll-section narrative-section hero-section" data-year="none">
+            <div class="narrative-bg">
+                <div class="hero-image" style="background-image: url('images/13196_16937_463.jpg')"></div>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="narrative-inner hero-inner">
+                <p class="hero-subtitle">Dissertation Research</p>
+                <h1 class="hero-title">Agglomeration Economies in Social Innovation Cluster</h1>
+                <h2 class="hero-subtitle-large">Networks and<br>Agglomeration Dynamics</h2>
+                <p class="hero-desc">
+                    How does government intervention in a state-led social innovation cluster<br>
+                    shape network structure and the dynamics that flow through it?
+                </p>
+                <div class="scroll-hint">Scroll to explore ↓</div>
+            </div>
+        </section>
+
+        <!-- ==================== SI PARK INTRO ==================== -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="narrative-inner text-section">
+                <div class="text-photo-block">
+                    <img src="images/IE002590156_STD.jpg" alt="Seoul Innovation Park aerial view" class="narrative-photo">
+                </div>
+                <div class="part-label">Seoul Innovation Park</div>
+                <h2 class="narrative-heading">A Laboratory for<br>Social Innovation</h2>
+                <p class="narrative-text">
+                    Seoul Innovation Park is a social innovation cluster established by the Seoul Metropolitan Government on a 100,000 square-meter site in Eunpyeong-gu. Since its opening in 2015, approximately 600 social economy organizations (SEOs) have taken residence here: social enterprises, community businesses, cooperatives, and 11 intermediary support organizations, all sharing space, resources, and networks.
+                </p>
+                <p class="narrative-text">
+                    This research explores three questions about this cluster. How does the social innovation network evolve under government intervention? Does diversity within the cluster affect organizational survival? And what agglomeration effects emerge when organizations are brought together in one place, connected through networks?
+                </p>
+            </div>
+        </section>
+
+        <!-- ==================== PART 1: INTRO ==================== -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="narrative-inner text-section">
+                <div class="part-number">Part 1</div>
+                <h2 class="narrative-heading">Evolution of<br>a Social Innovation Network</h2>
+                <p class="narrative-text">
+                    This study examines governance-mode transitions and tension management within a state-designed social innovation cluster. Using Social Network Analysis, it traces the partnership evolution of organizations in Seoul Innovation Park across two stages: the Local Government-led Stage (2015–2017) and the Central Government-joining Stage (2018–2020).
+                </p>
+                <p class="narrative-text">
+                    The following web map visualizes the spatial distribution of partnership networks among SEOs during these periods.
+                </p>
+                <div class="scroll-hint">Scroll to view the network map ↓</div>
+            </div>
+        </section>
+
+        <!-- ==================== PART 1: MAP YEARS 2015-2017 ==================== -->
+        <section class="scroll-section map-section" data-year="2015">
+            <div class="section-content">
+                <div class="year-badge">2015</div>
+                <h2>The Beginning</h2>
+                <p>The first resident organizations of Seoul Innovation Park begin to form their earliest partnerships.</p>
+                <p>These partnerships included government, business, civil sector, research sector, and the intermediaries that connected them across themes.</p>
+                <div class="year-stats">
+                    735 organizations · 948 partnerships
+                </div>
+            </div>
+        </section>
+
+        <section class="scroll-section map-section" data-year="2016">
+            <div class="section-content">
+                <div class="year-badge">2016</div>
+                <h2>Gradual Growth</h2>
+                <p>Existing partnerships deepen<br>as the network expands into new sectors.</p>
+                <div class="year-stats">
+                    789 organizations · 1,074 partnerships
+                </div>
+            </div>
+        </section>
+
+        <section class="scroll-section map-section" data-year="2017">
+            <div class="section-content">
+                <div class="year-badge">2017</div>
+                <h2>Rapid Expansion</h2>
+                <p>In 2017, the central government announced its Social Economy Revitalization Plan, promising additional support beyond what Seoul had already provided. New organizations joined the park, and the partnership network grew rapidly.</p>
+                <div class="year-stats">
+                    855 organizations · 1,209 partnerships
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PART 2: MAP YEARS 2018-2020 ==================== -->
+        <section class="scroll-section map-section" data-year="2018">
+            <div class="section-content">
+                <div class="year-badge">2018</div>
+                <h2>Quantitative Shift</h2>
+                <p>The network grew wider, but looser. Links rose from 913 to 1,134, yet average degree fell from 3.83 to 3.43 and average distance increased from 4.03 to 4.39. The network traded tight cohesion for a more diverse set of actors.</p>
+                <p>Collaboration with Seoul Metropolitan Government dropped sharply from 39% to 24%, while ties with central ministries (8 to 9%), national agencies (12 to 23%), and local governments (20 to 24%) expanded. A shift from a metropolitan-centered structure toward a "Dual-Axis Coordination Structure" linking central and local governments had begun.</p>
+            </div>
+        </section>
+
+        <section class="scroll-section map-section" data-year="2019">
+            <div class="section-content">
+                <div class="year-badge">2019</div>
+                <h2>Qualitative Shift</h2>
+                <p>Expansion outward brought fractures within. As organizations pursued external legitimacy, intra-park collaboration among SEOs dropped from 36% to 24% of civil-sector partnerships.</p>
+                <p>This is what our qualitative research captured as the "Trust Paradox." The strategy to secure institutional durability through alignment with national policy and corporate partners expanded the network's resource base, but simultaneously eroded internal trust and legitimacy.</p>
+            </div>
+        </section>
+
+        <section class="scroll-section map-section" data-year="2020">
+            <div class="section-content">
+                <div class="year-badge">2020</div>
+                <h2>What Came After</h2>
+                <p>The data on this map extends through the first quarter of 2020. This is the last network we were able to observe.</p>
+                <p>Then COVID-19 shook the foundations of face-to-face collaboration. In 2021, a new mayor took office and the policy landscape around the park shifted. In 2024, the Seoul Metropolitan Government decided to demolish the site.</p>
+                <p>The space where 600 organizations built six years of relationships no longer exists. But the relationships mapped here remain.</p>
+            </div>
+        </section>
+
+        <!-- ==================== PART 2: NETWORK & SURVIVAL ==================== -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="narrative-inner text-section">
+                <div class="part-number">Part 2</div>
+                <h2 class="narrative-heading">Network Structure and<br>Organizational Survival</h2>
+                <p class="narrative-text">
+                    In this space, people laughed, talked, and worked side by side. But did the structure of those relationships shape whether their organizations survived?
+                </p>
+                <p class="narrative-text">
+                    Through a Social Innovation Ecosystem (SIE) framework, this study views the cluster as a relational infrastructure through which resources and legitimacy flow. Using network data from 113 SEOs in Seoul Innovation Park along with their survival outcomes, logistic and complementary log-log models assessed how network centrality and partnership diversity influenced organizational survival.
+                </p>
+            </div>
+        </section>
+
+        <!-- Part 2: Results -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg">
+                <div class="bg-image" style="background-image: url('images/guidemap.jpg')"></div>
+                <div class="bg-overlay"></div>
+            </div>
+            <div class="narrative-inner text-section">
+                <h2 class="narrative-heading">The Asymmetry of Connection</h2>
+                <p class="narrative-text">
+                    The results revealed a clear asymmetry. Degree centrality significantly increased the probability of survival, while closeness centrality offered no advantage at all. Having many relationships mattered. Being close to the center of the network, by itself, did not.
+                </p>
+            </div>
+        </section>
+
+        <!-- Part 2: Diversity Graph -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg">
+                <div class="bg-image bg-contain" style="background-image: url('images/Rplot02_three diversity.png')"></div>
+                <div class="bg-overlay"></div>
+            </div>
+            <div class="narrative-inner text-section">
+                <h2 class="narrative-heading">The Two Faces of Diversity</h2>
+                <p class="narrative-text">
+                    Institutional diversity linearly enhanced survival. Partnerships spanning different institutional bases, government, public agencies, and the private sector, strengthened organizational stability.
+                </p>
+                <p class="narrative-text">
+                    Sectoral and geographical diversity, however, told a different story. Both were negatively associated with survival, and the penalties accelerated as breadth increased. Relationships spread too wide blurred organizational focus and weakened the power of local embeddedness.
+                </p>
+            </div>
+        </section>
+
+        <!-- ==================== PART 3: AGGLOMERATION ==================== -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="narrative-inner text-section">
+                <div class="text-photo-block">
+                    <img src="images/bjzXqYYTdMOeAjDsbCqVJgIxLkmRJAid.jpg" alt="Seoul Innovation Park community space" class="narrative-photo">
+                </div>
+                <div class="part-number">Part 3</div>
+                <h2 class="narrative-heading">What the Space Created:<br>Matching, Sharing, Learning</h2>
+                <p class="narrative-text">
+                    Being in the same place was never just a physical fact. Within Seoul Innovation Park, organizations found each other (matching), shared what they had (sharing), and learned together (learning). Through in-depth interviews, this study traced what actually happened inside the cluster, mediated by networks, along these three mechanisms of agglomeration economies.
+                </p>
+            </div>
+        </section>
+
+        <!-- Part 3: Matching (1) — image left, text right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout">
+                <div class="split-image">
+                    <img src="images/2366159_202001152034148950.jpg" alt="Seoul Innovation Park gathering">
+                </div>
+                <div class="split-text">
+                    <h2>Matching</h2>
+                    <p>Matching here was never simply about supply meeting demand. Invisible criteria were at work: shared values, social commitment, a community-oriented mindset.</p>
+                    <blockquote class="narrative-quote">
+                        "We were able to hire a retired branch manager from OO Bank. At first, we were unsure because we only needed someone to handle receipt processing and basic accounting. We repeatedly asked if he was truly comfortable with the role. Eventually, not only did he efficiently manage his tasks, but his professional network also contributed to our business growth. I remember he was genuinely excited to work with young entrepreneurs like us, who were embracing new challenges."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Matching (2) — text left, image right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout reverse">
+                <div class="split-image">
+                    <img src="images/10903_12200_1652.jpg" alt="Seoul Innovation Park festival">
+                </div>
+                <div class="split-text">
+                    <p>A retired corporate executive and a young social entrepreneur met in the same space and filled each other's gaps. Artists collaborated with social enterprises. Global IT companies like Microsoft and Amazon formed partnerships with organizations in this small cluster. Chance encounters created by proximity led to connections no one had anticipated.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Sharing (1) — image left, text right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout">
+                <div class="split-image">
+                    <img src="images/zLSDytDcukMzNkTkwtisRzvJlTCdAtlt.jpg" alt="Seoul Innovation Park garden">
+                </div>
+                <div class="split-text">
+                    <h2>Sharing</h2>
+                    <p>What was shared here went far beyond space. Financial risk, psychological solitude, and vision itself were all held in common. Organizations pooled 100,000 to 150,000 KRW each month into a mutual aid fund, carrying each other through difficult times.</p>
+                    <blockquote class="narrative-quote">
+                        "Having a space that was both suitable and affordable was extremely important for us. Since all we needed to do was submit an application to use the space, it felt like society was giving us a chance to explore possibilities. That's why, whenever people wanted to hold an event or invite someone for a discussion, Innovation Park was the first place that came to mind."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Sharing (2) — text left, image right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout reverse">
+                <div class="split-image">
+                    <img src="images/mZEIdTcgikUlDDhAdebaTqwWKuqKaKFe.jpg" alt="Seoul Innovation Park space">
+                </div>
+                <div class="split-text">
+                    <p>The space was also a psychological safety net. One participant described organizing an LGBTQ+ event, knowing it might draw disapproval from outside. But here, they felt protected instead.</p>
+                    <blockquote class="narrative-quote">
+                        "There was a shared understanding that everyone was doing difficult work, which created an atmosphere where people were willing to offer even small forms of help."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Learning (1) — image left, text right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout">
+                <div class="split-image">
+                    <img src="images/SAHwrAPxDVumrpSrWLrConqKZdFnpHzj.jpg" alt="Seoul Innovation Park exhibition space">
+                </div>
+                <div class="split-text">
+                    <h2>Learning</h2>
+                    <p>Learning here did not happen in classrooms. It happened at festivals, in hallways, outside offices late at night. At a festival with over 100 sessions in a single day, one participant experienced a shift in worldview.</p>
+                    <blockquote class="narrative-quote">
+                        "What I learned was that, at first, I assumed the lives of marginalized individuals must be dark and difficult. However, after meeting them and listening to their stories, I realized that their lives also contain moments of extraordinary beauty. It was a complete shift in perspective."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Learning (2) — text left, image right -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="split-layout reverse">
+                <div class="split-image">
+                    <img src="images/20241227_062344-1024x768.png" alt="Seoul Innovation Park evening">
+                </div>
+                <div class="split-text">
+                    <p>Another participant first encountered veganism here, and it became the reason they decided to stay in the social enterprise sector. One organization, after failing three times to certify a support model for the hearing-impaired, visited ten similar organizations abroad through a training program arranged by an intermediary, and finally completed their business model.</p>
+                    <blockquote class="narrative-quote">
+                        "Looking back, I realized that there were only a handful of people in Korea who shared my concerns. When we gathered and shared our stories, there was an immediate sense of understanding, even without lengthy explanations."
+                    </blockquote>
+                    <p>What accumulated in this space was not mere knowledge. It was phronesis: the practical wisdom to judge what is right and act on it in the real world.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== OUTRO ==================== -->
+        <section class="scroll-section narrative-section" data-year="none">
+            <div class="narrative-bg solid-black"></div>
+            <div class="narrative-inner text-section outro-section">
+                <div class="outro-line"></div>
+                <p class="outro-text">
+                    This research integrates the analysis of network formation, governance transition, and agglomeration dynamics within a social economy cluster, offering empirical grounding for spatial policies in social innovation.
+                </p>
+                <p class="outro-credit">
+                    Mina Kim · Dissertation Research<br>
+                    Agglomeration Economies in Social Economy Clusters
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Fixed top-right: year + legend (visible only during map sections) -->
+    <div class="fixed-top-right" id="fixed-top-right">
+        <div class="year-indicator" id="year-indicator">2015</div>
+        <div class="legend-box">
+            <div class="legend-title">CATEGORIES</div>
+            <div id="legend-items"></div>
+        </div>
+    </div>
+
+    <!-- Tooltip -->
+    <div id="tooltip" class="tooltip"></div>
+
+    <!-- Node info -->
+    <div id="node-info" class="node-info hidden">
+        <button class="info-close" id="info-close">&times;</button>
+        <h3 id="info-name"></h3>
+        <div id="info-meta"></div>
+        <div id="info-partners"></div>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <script src="data/network_map.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

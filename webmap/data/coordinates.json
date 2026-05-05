@@ -1,0 +1,2294 @@
+{
+  "C01": {
+    "id": "C01",
+    "name": "칼폴라니사회경제연구소협동조합",
+    "lat": 37.612257707193834,
+    "lng": 126.92710004302089,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C02": {
+    "id": "C02",
+    "name": "서울시민햇빛발전 협동조합",
+    "lat": 37.61080011727348,
+    "lng": 126.9278928429526,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C03": {
+    "id": "C03",
+    "name": "공익회계사네트워크 맑은",
+    "lat": 37.612645884856654,
+    "lng": 126.92970679794969,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C04": {
+    "id": "C04",
+    "name": "난민인권센터",
+    "lat": 37.61326871827082,
+    "lng": 126.92734775533052,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C05": {
+    "id": "C05",
+    "name": "노무법인 의연",
+    "lat": 37.61138768727874,
+    "lng": 126.92711918887775,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C06": {
+    "id": "C06",
+    "name": "시소",
+    "lat": 37.61057455189921,
+    "lng": 126.92902142115241,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C07": {
+    "id": "C07",
+    "name": "어라이즈오브젝트",
+    "lat": 37.609806143878735,
+    "lng": 126.92779535060275,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C08": {
+    "id": "C08",
+    "name": "언더독스",
+    "lat": 37.61229953775112,
+    "lng": 126.92917976592241,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C09": {
+    "id": "C09",
+    "name": "콜라보커뮤니케이션즈",
+    "lat": 37.61058176248816,
+    "lng": 126.9293570627355,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C10": {
+    "id": "C10",
+    "name": "티팟",
+    "lat": 37.61293772182671,
+    "lng": 126.92702599503872,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C100": {
+    "id": "C100",
+    "name": "듣는연구소",
+    "lat": 37.61292327700733,
+    "lng": 126.92979255757996,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C101": {
+    "id": "C101",
+    "name": "맘스아지트",
+    "lat": 37.61106100206607,
+    "lng": 126.92762191799925,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C102": {
+    "id": "C102",
+    "name": "모두의라이브방송 협동조합",
+    "lat": 37.61352885228882,
+    "lng": 126.92834637818045,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C103": {
+    "id": "C103",
+    "name": "미래전통",
+    "lat": 37.61007098337352,
+    "lng": 126.92738686550733,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C104": {
+    "id": "C104",
+    "name": "산림일자리발전소",
+    "lat": 37.613089977465386,
+    "lng": 126.92941490412547,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C105": {
+    "id": "C105",
+    "name": "슬로푸드문화원",
+    "lat": 37.612928513093095,
+    "lng": 126.92991892714677,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C106": {
+    "id": "C106",
+    "name": "약속의자전거",
+    "lat": 37.61184491236582,
+    "lng": 126.93089246305593,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C107": {
+    "id": "C107",
+    "name": "씨닷",
+    "lat": 37.61121413750883,
+    "lng": 126.9292081625251,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C108": {
+    "id": "C108",
+    "name": "비건카페달냥",
+    "lat": 37.61301761865701,
+    "lng": 126.92947407900945,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C109": {
+    "id": "C109",
+    "name": "다큐보리공장",
+    "lat": 37.61314682760124,
+    "lng": 126.92930940858103,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C11": {
+    "id": "C11",
+    "name": "프로젝트C",
+    "lat": 37.61251828734486,
+    "lng": 126.92718329753463,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C110": {
+    "id": "C110",
+    "name": "예술교육창작터 달집",
+    "lat": 37.610611593102604,
+    "lng": 126.92815755185441,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C111": {
+    "id": "C111",
+    "name": "스튜디오메조",
+    "lat": 37.610019167907694,
+    "lng": 126.92793116354545,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C112": {
+    "id": "C112",
+    "name": "씨네에그",
+    "lat": 37.61010400571764,
+    "lng": 126.92811189441244,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C113": {
+    "id": "C113",
+    "name": "아이시티브릿지",
+    "lat": 37.61224273777706,
+    "lng": 126.92845932871589,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C114": {
+    "id": "C114",
+    "name": "타래유니버스",
+    "lat": 37.611180723868465,
+    "lng": 126.92783802812309,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C12": {
+    "id": "C12",
+    "name": "사진아카이브연구소",
+    "lat": 37.61076791128819,
+    "lng": 126.93074661835085,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C13": {
+    "id": "C13",
+    "name": "에이컴퍼니",
+    "lat": 37.61229214154098,
+    "lng": 126.92943652402268,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C14": {
+    "id": "C14",
+    "name": "현실문화연구(출판사)",
+    "lat": 37.61038455459279,
+    "lng": 126.9299165071918,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C15": {
+    "id": "C15",
+    "name": "비아이씨피쥐(BICPG)",
+    "lat": 37.61035360997505,
+    "lng": 126.92851782176703,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C16": {
+    "id": "C16",
+    "name": "세눈컴퍼니",
+    "lat": 37.61365809340255,
+    "lng": 126.92955999903941,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C17": {
+    "id": "C17",
+    "name": "영화제작소눈",
+    "lat": 37.611927798975096,
+    "lng": 126.92973845700396,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C18": {
+    "id": "C18",
+    "name": "트루팍프로덕션",
+    "lat": 37.613071407680756,
+    "lng": 126.93010399964619,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C19": {
+    "id": "C19",
+    "name": "시민방송",
+    "lat": 37.61061619228786,
+    "lng": 126.92712840097562,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C20": {
+    "id": "C20",
+    "name": "물푸레생태교육센터",
+    "lat": 37.61096181219224,
+    "lng": 126.9280709635039,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C21": {
+    "id": "C21",
+    "name": "디자인뤼",
+    "lat": 37.610543931374345,
+    "lng": 126.93077163885734,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C22": {
+    "id": "C22",
+    "name": "에너지복지사회적협동조합",
+    "lat": 37.61320547050589,
+    "lng": 126.9282587115232,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C23": {
+    "id": "C23",
+    "name": "금자동이",
+    "lat": 37.61232175466118,
+    "lng": 126.92858252760425,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C24": {
+    "id": "C24",
+    "name": "숨비",
+    "lat": 37.61335819035896,
+    "lng": 126.92883540741035,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C25": {
+    "id": "C25",
+    "name": "터치포굿",
+    "lat": 37.610759520665994,
+    "lng": 126.92798651003078,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C26": {
+    "id": "C26",
+    "name": "비건타이거",
+    "lat": 37.611945472536654,
+    "lng": 126.9280509664341,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C27": {
+    "id": "C27",
+    "name": "협동조합리쿱",
+    "lat": 37.61203834396089,
+    "lng": 126.93059129153441,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C28": {
+    "id": "C28",
+    "name": "아름다운커피",
+    "lat": 37.611297602020564,
+    "lng": 126.92787728303664,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C29": {
+    "id": "C29",
+    "name": "두꺼비하우징",
+    "lat": 37.61369015042598,
+    "lng": 126.92903810517471,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C30": {
+    "id": "C30",
+    "name": "스페이스숨건축사사무소",
+    "lat": 37.61006363764869,
+    "lng": 126.9271884655017,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C31": {
+    "id": "C31",
+    "name": "이풀약초협동조합",
+    "lat": 37.6101385965214,
+    "lng": 126.92950978416681,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C32": {
+    "id": "C32",
+    "name": "자인생태건축",
+    "lat": 37.61286831745745,
+    "lng": 126.9286886398672,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C33": {
+    "id": "C33",
+    "name": "지식순환협동조합",
+    "lat": 37.60995411082461,
+    "lng": 126.92852647714602,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C34": {
+    "id": "C34",
+    "name": "공익인권변호사모임 희망을만드는법",
+    "lat": 37.613684485520956,
+    "lng": 126.9291164573804,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C35": {
+    "id": "C35",
+    "name": "평화교육프로젝트 모모",
+    "lat": 37.61358431351045,
+    "lng": 126.93044311880894,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C36": {
+    "id": "C36",
+    "name": "에듀머니",
+    "lat": 37.60974592408777,
+    "lng": 126.92988288727744,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C37": {
+    "id": "C37",
+    "name": "올더콘서트",
+    "lat": 37.61242684147611,
+    "lng": 126.92914788132164,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C38": {
+    "id": "C38",
+    "name": "마을과사람",
+    "lat": 37.61076730075981,
+    "lng": 126.92956384719432,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C39": {
+    "id": "C39",
+    "name": "노니논다",
+    "lat": 37.61014620869438,
+    "lng": 126.92873906100267,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C40": {
+    "id": "C40",
+    "name": "착한책가게",
+    "lat": 37.61151489482532,
+    "lng": 126.93081526371009,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C41": {
+    "id": "C41",
+    "name": "마커스랩",
+    "lat": 37.61320341176151,
+    "lng": 126.92805355620301,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C42": {
+    "id": "C42",
+    "name": "오요리아시아",
+    "lat": 37.6117023444522,
+    "lng": 126.92771460752212,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C43": {
+    "id": "C43",
+    "name": "빅이슈코리아",
+    "lat": 37.61335051135738,
+    "lng": 126.93048207427935,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C44": {
+    "id": "C44",
+    "name": "감성붓다",
+    "lat": 37.61089377916579,
+    "lng": 126.92955579797946,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C45": {
+    "id": "C45",
+    "name": "고무신학교",
+    "lat": 37.61213588084575,
+    "lng": 126.9276113570742,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C46": {
+    "id": "C46",
+    "name": "너느로",
+    "lat": 37.6127500432003,
+    "lng": 126.92915751612048,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C47": {
+    "id": "C47",
+    "name": "빛움",
+    "lat": 37.61281450591452,
+    "lng": 126.92912141468878,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C48": {
+    "id": "C48",
+    "name": "사진방",
+    "lat": 37.60970228758451,
+    "lng": 126.92829662422803,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C49": {
+    "id": "C49",
+    "name": "은평도서관마을사회적협동조합",
+    "lat": 37.60977790696954,
+    "lng": 126.93071639446507,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C50": {
+    "id": "C50",
+    "name": "히든북",
+    "lat": 37.61321488751129,
+    "lng": 126.93032666211745,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C51": {
+    "id": "C51",
+    "name": "나를만나는사진수업",
+    "lat": 37.61093005650161,
+    "lng": 126.92723170066598,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C52": {
+    "id": "C52",
+    "name": "케이로드넘버원",
+    "lat": 37.61321203839682,
+    "lng": 126.93078779778119,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C53": {
+    "id": "C53",
+    "name": "이삭 아르테포베라",
+    "lat": 37.61004261380827,
+    "lng": 126.92894396185326,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C54": {
+    "id": "C54",
+    "name": "뉴미디어아트공공미술실험",
+    "lat": 37.60997685007387,
+    "lng": 126.93004240866104,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C55": {
+    "id": "C55",
+    "name": "자휴자족",
+    "lat": 37.612763337717226,
+    "lng": 126.927513565858,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C56": {
+    "id": "C56",
+    "name": "무엇이든 협동조합",
+    "lat": 37.611601129512394,
+    "lng": 126.92919921437398,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C57": {
+    "id": "C57",
+    "name": "세상아이",
+    "lat": 37.61076022651576,
+    "lng": 126.93048973216435,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C58": {
+    "id": "C58",
+    "name": "에코팜므",
+    "lat": 37.6113925517608,
+    "lng": 126.92784719282177,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C59": {
+    "id": "C59",
+    "name": "오마이컴퍼니",
+    "lat": 37.61185718435512,
+    "lng": 126.92991972427636,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C60": {
+    "id": "C60",
+    "name": "아시아공정무역네트워크",
+    "lat": 37.610504604253556,
+    "lng": 126.9282468651652,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C61": {
+    "id": "C61",
+    "name": "노는엄마협동조합",
+    "lat": 37.613680597426644,
+    "lng": 126.92959951223057,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C62": {
+    "id": "C62",
+    "name": "탠버린",
+    "lat": 37.61145240033566,
+    "lng": 126.92907030336414,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C63": {
+    "id": "C63",
+    "name": "굿앤컴퍼니",
+    "lat": 37.61018401678347,
+    "lng": 126.92789878934813,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C64": {
+    "id": "C64",
+    "name": "마을무지개",
+    "lat": 37.61105234224859,
+    "lng": 126.92935323487383,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C65": {
+    "id": "C65",
+    "name": "배리어프리영화위원회",
+    "lat": 37.610620458930384,
+    "lng": 126.9278808695378,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C66": {
+    "id": "C66",
+    "name": "북센스",
+    "lat": 37.60998397234403,
+    "lng": 126.92952441182908,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C67": {
+    "id": "C67",
+    "name": "한국청소년동아리연맹",
+    "lat": 37.61061576713524,
+    "lng": 126.93062168005203,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C68": {
+    "id": "C68",
+    "name": "대안에너지기술연구소",
+    "lat": 37.61313854160102,
+    "lng": 126.92728342939955,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C69": {
+    "id": "C69",
+    "name": "마을기술센터핸즈",
+    "lat": 37.61065201853747,
+    "lng": 126.9296759111132,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C70": {
+    "id": "C70",
+    "name": "비움과채움",
+    "lat": 37.61055694722948,
+    "lng": 126.9275292473949,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C71": {
+    "id": "C71",
+    "name": "적정기술공방",
+    "lat": 37.61344205696232,
+    "lng": 126.9292841723733,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C72": {
+    "id": "C72",
+    "name": "앙코르브라보노 협동조합",
+    "lat": 37.611590684105245,
+    "lng": 126.93013847769717,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C73": {
+    "id": "C73",
+    "name": "한국공공관리연구원",
+    "lat": 37.612929987991066,
+    "lng": 126.92776163965745,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C74": {
+    "id": "C74",
+    "name": "실버넷티비",
+    "lat": 37.61008772325692,
+    "lng": 126.92872420472963,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C75": {
+    "id": "C75",
+    "name": "은빛기획",
+    "lat": 37.61139431449208,
+    "lng": 126.92886809867215,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C76": {
+    "id": "C76",
+    "name": "프렌드아시아",
+    "lat": 37.612616303397836,
+    "lng": 126.92969345818918,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C77": {
+    "id": "C77",
+    "name": "자바르떼",
+    "lat": 37.613636660845465,
+    "lng": 126.92739367148461,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C78": {
+    "id": "C78",
+    "name": "모두를위한극장공정영화협동조합",
+    "lat": 37.611310485128406,
+    "lng": 126.92835721042158,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C79": {
+    "id": "C79",
+    "name": "대안교육연대",
+    "lat": 37.61314669014541,
+    "lng": 126.92799462533569,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C80": {
+    "id": "C80",
+    "name": "마을공방사이",
+    "lat": 37.61046083563376,
+    "lng": 126.92879445419133,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C81": {
+    "id": "C81",
+    "name": "인권도시연구소",
+    "lat": 37.611387526559334,
+    "lng": 126.92811418057867,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C82": {
+    "id": "C82",
+    "name": "노동건강연대",
+    "lat": 37.61069922579153,
+    "lng": 126.93069306239711,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C83": {
+    "id": "C83",
+    "name": "한국사회투자",
+    "lat": 37.611472522980215,
+    "lng": 126.93044539641905,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C84": {
+    "id": "C84",
+    "name": "HBM 사회적협동조합(MTA 서울랩)",
+    "lat": 37.6119013012498,
+    "lng": 126.92720235331811,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C85": {
+    "id": "C85",
+    "name": "한국아이티(IT)개발자 협동조합",
+    "lat": 37.61369712987365,
+    "lng": 126.93034411034033,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C86": {
+    "id": "C86",
+    "name": "발전대안 피다",
+    "lat": 37.61357598502914,
+    "lng": 126.93070546793203,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C87": {
+    "id": "C87",
+    "name": "어스맨",
+    "lat": 37.61309478293766,
+    "lng": 126.92766524444242,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C88": {
+    "id": "C88",
+    "name": "법무법인더함",
+    "lat": 37.6116425645018,
+    "lng": 126.9278549891968,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C89": {
+    "id": "C89",
+    "name": "에이유디사회적협동조합",
+    "lat": 37.611304161170196,
+    "lng": 126.92723454159989,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C90": {
+    "id": "C90",
+    "name": "위누",
+    "lat": 37.611215892475904,
+    "lng": 126.93094123537512,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C91": {
+    "id": "C91",
+    "name": "비영리IT지원센터",
+    "lat": 37.61076081223269,
+    "lng": 126.9301362824078,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C92": {
+    "id": "C92",
+    "name": "이야기꾼의책공연",
+    "lat": 37.611520033469354,
+    "lng": 126.92869202994396,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C93": {
+    "id": "C93",
+    "name": "라이터스",
+    "lat": 37.61352927056344,
+    "lng": 126.93098169075797,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C94": {
+    "id": "C94",
+    "name": "비에이티(BAT)",
+    "lat": 37.611923073293624,
+    "lng": 126.92987363310118,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C95": {
+    "id": "C95",
+    "name": "히든앤코",
+    "lat": 37.610319187301094,
+    "lng": 126.92818683130199,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C96": {
+    "id": "C96",
+    "name": "살림의료복지사회적협동조합",
+    "lat": 37.61357483745988,
+    "lng": 126.92931672116326,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C97": {
+    "id": "C97",
+    "name": "세라워크",
+    "lat": 37.611868780805494,
+    "lng": 126.92999190224153,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C98": {
+    "id": "C98",
+    "name": "페어스페이스",
+    "lat": 37.60992866109163,
+    "lng": 126.92933671037784,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "C99": {
+    "id": "C99",
+    "name": "엔피오교육센터",
+    "lat": 37.61171140153168,
+    "lng": 126.9304108795682,
+    "source": "si_park",
+    "is_resident": true
+  },
+  "P0001": {
+    "id": "P0001",
+    "name": "(사)한국생약협회",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0002": {
+    "id": "P0002",
+    "name": "(재)밴드",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0003": {
+    "id": "P0003",
+    "name": "1인기업협동조합",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0004": {
+    "id": "P0004",
+    "name": "50스타트센터",
+    "lat": 3410.335932,
+    "lng": 11538.141298,
+    "address": "서울특별시 양천구 곰달래로13길 73",
+    "naver_title": "양천구푸드마켓신월점·50스타트센터 개방화장실",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0005": {
+    "id": "P0005",
+    "name": "50플러스재단",
+    "lat": 3411.363678,
+    "lng": 11548.650787,
+    "address": "서울특별시 마포구 백범로31길 21 1층",
+    "naver_title": "서울시50플러스재단",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0006": {
+    "id": "P0006",
+    "name": "50플러스재단서부캠퍼스",
+    "lat": 3416.7502860000004,
+    "lng": 11547.198808000001,
+    "address": "서울특별시 은평구 통일로62길 7",
+    "naver_title": "서울시50플러스 서부캠퍼스",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0007": {
+    "id": "P0007",
+    "name": "50플러스재단중부캠퍼스",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0008": {
+    "id": "P0008",
+    "name": "6월민주항쟁 30년 사업 추진위원회",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0009": {
+    "id": "P0009",
+    "name": "7일경제연구소",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0010": {
+    "id": "P0010",
+    "name": "ABB코리아",
+    "lat": 3407.6967090000003,
+    "lng": 11558.262283,
+    "address": "서울특별시 강남구 테헤란로 504",
+    "naver_title": "ABB코리아",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0011": {
+    "id": "P0011",
+    "name": "AFN",
+    "lat": 3407.068635,
+    "lng": 11555.765962000001,
+    "address": "서울특별시 강남구 강남대로94길 28 608호",
+    "naver_title": "AFN Studio",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0012": {
+    "id": "P0012",
+    "name": "ASSITEJ KOREA",
+    "lat": 3414.587082,
+    "lng": 11553.446581,
+    "address": "서울특별시 종로구 동숭길 114 2층",
+    "naver_title": "국제아동청소년연극협회 한국본부",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0013": {
+    "id": "P0013",
+    "name": "AnkorHighSchool",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0014": {
+    "id": "P0014",
+    "name": "CAN",
+    "lat": 3413.475096,
+    "lng": 11551.287454,
+    "address": "서울특별시 종로구 종로 19 르메이에르종로타운1 10층 1019호",
+    "naver_title": "투어아이캔",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0015": {
+    "id": "P0015",
+    "name": "CHRD",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0016": {
+    "id": "P0016",
+    "name": "Change Fusion",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0017": {
+    "id": "P0017",
+    "name": "Civ",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0018": {
+    "id": "P0018",
+    "name": "Dark Matter Labs",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0019": {
+    "id": "P0019",
+    "name": "Darkness In Dialouge (홍콩)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0020": {
+    "id": "P0020",
+    "name": "Daum",
+    "lat": 3413.258214,
+    "lng": 11551.144309000001,
+    "address": "서울특별시 중구 세종대로 136 서울파이낸스센터 21층",
+    "naver_title": "다음이주법인",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0021": {
+    "id": "P0021",
+    "name": "EBS",
+    "lat": 3413.892885,
+    "lng": 11551.647130000001,
+    "address": "서울특별시 종로구 인사동길 62-5 3층",
+    "naver_title": "EBS미디어원격평생교육원",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0022": {
+    "id": "P0022",
+    "name": "Edmund Hillary Fellowship",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0023": {
+    "id": "P0023",
+    "name": "Esspace (프랑스)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0024": {
+    "id": "P0024",
+    "name": "Evergreen State College (미국)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0025": {
+    "id": "P0025",
+    "name": "FT+",
+    "lat": 3413.267853,
+    "lng": 11552.981947,
+    "address": "서울특별시 중구 창경궁로8길 10",
+    "naver_title": "우림FT고주파",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0026": {
+    "id": "P0026",
+    "name": "GKL사회공헌재단",
+    "lat": 3408.033876,
+    "lng": 11558.359456,
+    "address": "서울특별시 강남구 테헤란로87길 36 1006호",
+    "naver_title": "GKL사회공헌재단",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0027": {
+    "id": "P0027",
+    "name": "GS SHOP",
+    "lat": 3408.96957,
+    "lng": 11543.116201,
+    "address": "서울특별시 영등포구 선유로 75",
+    "naver_title": "GS홈쇼핑본사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0028": {
+    "id": "P0028",
+    "name": "GS리테일",
+    "lat": 3411.970278,
+    "lng": 11549.968359999999,
+    "address": "서울특별시 중구 만리재로 175 단지내 상가 109호",
+    "naver_title": "GS더프레시 서울역센트럴자이점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0029": {
+    "id": "P0029",
+    "name": "GS칼텍스",
+    "lat": 3413.800716,
+    "lng": 11550.111109,
+    "address": "서울특별시 종로구 사직동",
+    "naver_title": "GS칼텍스 사직주유소입구",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0030": {
+    "id": "P0030",
+    "name": "GS홈쇼핑",
+    "lat": 3408.96957,
+    "lng": 11543.116201,
+    "address": "서울특별시 영등포구 선유로 75",
+    "naver_title": "GS홈쇼핑본사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0031": {
+    "id": "P0031",
+    "name": "Getting to Maybe",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0032": {
+    "id": "P0032",
+    "name": "HBI기술연구소",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0033": {
+    "id": "P0033",
+    "name": "HBM협동조합연구소",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0034": {
+    "id": "P0034",
+    "name": "HI Ent",
+    "lat": 3414.062175,
+    "lng": 11543.260201000001,
+    "address": "서울특별시 마포구 월드컵북로 375 디엠씨이안상암1단지 1303호",
+    "naver_title": "에이치아이이엔티컴퍼니",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0035": {
+    "id": "P0035",
+    "name": "HUG",
+    "lat": 3414.5860110000003,
+    "lng": 11553.191143,
+    "address": "서울특별시 종로구 대명1길 7 2층",
+    "naver_title": "허그",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0036": {
+    "id": "P0036",
+    "name": "Homeless World Cup Foundation",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0037": {
+    "id": "P0037",
+    "name": "IBK기업은행",
+    "lat": 3413.185017,
+    "lng": 11551.252228000001,
+    "address": "서울특별시 중구 무교로 20 어린이재단빌딩 1층",
+    "naver_title": "IBK기업은행 무교",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0038": {
+    "id": "P0038",
+    "name": "ICT브릿지",
+    "lat": 3406.664076,
+    "lng": 11543.147431000001,
+    "address": "서울특별시 구로구 구로중앙로 60 대림오페라타워",
+    "naver_title": "ICT브릿지",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0039": {
+    "id": "P0039",
+    "name": "INSP (International Network of Street Papers)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0040": {
+    "id": "P0040",
+    "name": "IO",
+    "lat": 3411.682233,
+    "lng": 11552.267679999999,
+    "address": "서울특별시 용산구 남산공원길 126",
+    "naver_title": "카페 아이오",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0041": {
+    "id": "P0041",
+    "name": "IRC",
+    "lat": 3199.870662,
+    "lng": 11544.115867,
+    "address": "광주광역시 북구 설죽로 430 세종빌딩 2~5F (안내데스크는 2층)",
+    "naver_title": "IRC어학원",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0042": {
+    "id": "P0042",
+    "name": "JP Morgan",
+    "lat": 3405.788367,
+    "lng": 11508.615996999999,
+    "address": "인천광역시 중구 운서1로4번길 35",
+    "naver_title": "제이피모건4",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0043": {
+    "id": "P0043",
+    "name": "Jam Global (일본)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0044": {
+    "id": "P0044",
+    "name": "KBS",
+    "lat": 3412.786407,
+    "lng": 11552.453602,
+    "address": "서울특별시 중구 충무로 21-1 스카라가발 2층",
+    "naver_title": "50년전통 스카라가발/ kbs생생정보 방영",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0045": {
+    "id": "P0045",
+    "name": "KB국민은행",
+    "lat": 3413.2440570000003,
+    "lng": 11550.928687,
+    "address": "서울특별시 중구 세종대로21길 40 1층",
+    "naver_title": "KB국민은행 태평로점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0046": {
+    "id": "P0046",
+    "name": "KB국민카드",
+    "lat": 3413.646357,
+    "lng": 11550.703345,
+    "address": "서울특별시 종로구 새문안로3길 30",
+    "naver_title": "KB국민카드",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0047": {
+    "id": "P0047",
+    "name": "KCOC(국제개발협력민간위원회)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0048": {
+    "id": "P0048",
+    "name": "KDB나눔재단",
+    "lat": 3409.60326,
+    "lng": 11546.083708,
+    "address": "서울특별시 영등포구 은행로 22 한국산업은행 별관",
+    "naver_title": "KDB나눔재단",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0049": {
+    "id": "P0049",
+    "name": "KOICA",
+    "lat": 3399.5701950000002,
+    "lng": 11561.411104,
+    "address": "경기도 성남시 수정구 대왕판교로 825 KOICA 개발협력전시관",
+    "naver_title": "KOICA 개발협력전시관",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0050": {
+    "id": "P0050",
+    "name": "KOTO (베트남)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0051": {
+    "id": "P0051",
+    "name": "KOTRA",
+    "lat": 3412.960161,
+    "lng": 11552.516674,
+    "address": "서울특별시 중구 을지로16길 20",
+    "naver_title": "학림사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0052": {
+    "id": "P0052",
+    "name": "Krobey real Primary School",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0053": {
+    "id": "P0053",
+    "name": "LG전자",
+    "lat": 3412.929102,
+    "lng": 11551.497658,
+    "address": "서울특별시 중구 남대문로 81 롯데백화점(본점) 8층",
+    "naver_title": "LG전자 베스트샵 롯데 본점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0054": {
+    "id": "P0054",
+    "name": "LH",
+    "lat": 3411.754773,
+    "lng": 11550.666382000001,
+    "address": "서울특별시 용산구 한강대로 372 KDB생명타워 14층",
+    "naver_title": "LH지역균형발전지원센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0055": {
+    "id": "P0055",
+    "name": "La Générale",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0056": {
+    "id": "P0056",
+    "name": "Liberty in North Korea",
+    "lat": 3411.4127280000002,
+    "lng": 11557.071493000001,
+    "address": "서울특별시 성동구 왕십리로 115",
+    "naver_title": "Liberty in North Korea",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0057": {
+    "id": "P0057",
+    "name": "MIDAS India (인도)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0058": {
+    "id": "P0058",
+    "name": "MONO Research",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0059": {
+    "id": "P0059",
+    "name": "MSTORM",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0060": {
+    "id": "P0060",
+    "name": "MTA China (중국)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0061": {
+    "id": "P0061",
+    "name": "MYSC",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0062": {
+    "id": "P0062",
+    "name": "Mar",
+    "lat": 3419.868093,
+    "lng": 11533.954903,
+    "address": "경기도 고양시 일산동구 일산로 38",
+    "naver_title": "폴 마켓(Beauty-full-mar",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0063": {
+    "id": "P0063",
+    "name": "Minerva School",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0064": {
+    "id": "P0064",
+    "name": "NGO사단법인트루",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0065": {
+    "id": "P0065",
+    "name": "OBS",
+    "lat": 3409.7345250000003,
+    "lng": 11533.684930000001,
+    "address": "경기도 부천시 오정구 오정로 233 OBS경인TV",
+    "naver_title": "OBS경인TV",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0066": {
+    "id": "P0066",
+    "name": "OURS",
+    "lat": 3387.8193810000002,
+    "lng": 11536.355779,
+    "address": "경기도 화성시 만세구 꽃내음2길 16-2 1F OURS",
+    "naver_title": "오유알에스",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0067": {
+    "id": "P0067",
+    "name": "P2PFoundation",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0068": {
+    "id": "P0068",
+    "name": "PRC자전거클럽",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0069": {
+    "id": "P0069",
+    "name": "PWYF(Publish What you Fund)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0070": {
+    "id": "P0070",
+    "name": "Pub",
+    "lat": 3413.29308,
+    "lng": 11551.255720000001,
+    "address": "서울특별시 중구 무교로 32 효령빌딩 1층",
+    "naver_title": "JH텍사스바",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0071": {
+    "id": "P0071",
+    "name": "R3028",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0072": {
+    "id": "P0072",
+    "name": "Res",
+    "lat": 3409.557072,
+    "lng": 11556.337975,
+    "address": "서울특별시 강남구 언주로172길 28 1216빌딩 B1층",
+    "naver_title": "알이에스피",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0073": {
+    "id": "P0073",
+    "name": "SG생활안전",
+    "lat": 3416.635095,
+    "lng": 11548.595599,
+    "address": "서울특별시 서대문구 홍은동 8-627",
+    "naver_title": "삼하운수 SG생활안전 전기차충전소",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0074": {
+    "id": "P0074",
+    "name": "SH서울주택도시공사",
+    "lat": 3406.550703,
+    "lng": 11560.186627000001,
+    "address": "서울특별시 강남구 개포로 621 서울주택도시공사",
+    "naver_title": "서울주택도시개발공사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0075": {
+    "id": "P0075",
+    "name": "SIX",
+    "lat": 3413.4569070000002,
+    "lng": 11550.937318,
+    "address": "서울특별시 종로구 새문안로9길 9 2층",
+    "naver_title": "반포식스 광화문점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0076": {
+    "id": "P0076",
+    "name": "SK E&S",
+    "lat": 3278.454603,
+    "lng": 11764.765582,
+    "address": "경상북도 포항시 북구 소티재로 208",
+    "naver_title": "영남에너지서비스",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0077": {
+    "id": "P0077",
+    "name": "SK건설",
+    "lat": 3413.807556,
+    "lng": 11551.392439,
+    "address": "서울특별시 종로구 율곡로2길 19",
+    "naver_title": "SK에코플랜트",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0078": {
+    "id": "P0078",
+    "name": "SK네트웍스",
+    "lat": 3413.277618,
+    "lng": 11551.944355,
+    "address": "서울특별시 종로구 청계천로 85 삼일빌딩",
+    "naver_title": "SK네트웍스 본사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0079": {
+    "id": "P0079",
+    "name": "SK스토어",
+    "lat": 3410.816991,
+    "lng": 11548.49263,
+    "address": "서울특별시 마포구 마포대로 68 아크로타워 1층",
+    "naver_title": "SK텔레콤 PS&amp;M 마포지점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0080": {
+    "id": "P0080",
+    "name": "SK텔레콤",
+    "lat": 3413.220783,
+    "lng": 11551.259850999999,
+    "address": "서울특별시 중구 무교로 24 1층 T-world",
+    "naver_title": "SK텔레콤 PS&amp;M 무교점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0081": {
+    "id": "P0081",
+    "name": "SOPOONG",
+    "lat": 3413.7343680000004,
+    "lng": 11549.943421,
+    "address": "서울특별시 종로구 사직로 49-10 1층",
+    "naver_title": "소풍 독립문역점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0082": {
+    "id": "P0082",
+    "name": "SOS돌봄지원센터",
+    "lat": 3413.241051,
+    "lng": 11555.192734,
+    "address": "서울특별시 중구 난계로 185 8층",
+    "naver_title": "중구행복돌봄센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0083": {
+    "id": "P0083",
+    "name": "SPACE 9",
+    "lat": 3414.005025,
+    "lng": 11550.57667,
+    "address": "서울특별시 종로구 자하문로1가길 5 2층",
+    "naver_title": "공유주택안방",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0084": {
+    "id": "P0084",
+    "name": "SRC 루인스 건축사무소",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0085": {
+    "id": "P0085",
+    "name": "Saigon Innovation Hub",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0086": {
+    "id": "P0086",
+    "name": "Sairon",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0087": {
+    "id": "P0087",
+    "name": "Self Reliance Development Konkokyo Center",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0088": {
+    "id": "P0088",
+    "name": "Social Enterprise Activation Center",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0089": {
+    "id": "P0089",
+    "name": "TBS",
+    "lat": 3413.922693,
+    "lng": 11543.182711,
+    "address": "서울특별시 마포구 매봉산로 31 S-PLEX CENTER",
+    "naver_title": "서울특별시 미디어재단 티비에스",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0090": {
+    "id": "P0090",
+    "name": "TURC",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0091": {
+    "id": "P0091",
+    "name": "TZBZ (스페인)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0092": {
+    "id": "P0092",
+    "name": "Team Academy Amsterdam (네덜란드)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0093": {
+    "id": "P0093",
+    "name": "Team Academy Peru (페루)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0094": {
+    "id": "P0094",
+    "name": "Team Labs (스페인)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0095": {
+    "id": "P0095",
+    "name": "Techstars (미국)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0096": {
+    "id": "P0096",
+    "name": "The Reality of Aid Network",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0097": {
+    "id": "P0097",
+    "name": "Timiiakatemia (핀란드)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0098": {
+    "id": "P0098",
+    "name": "UNOY",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0099": {
+    "id": "P0099",
+    "name": "Urbanplay",
+    "lat": 3412.891203,
+    "lng": 11546.58472,
+    "address": "서울특별시 서대문구 연희로5길 22 202호",
+    "naver_title": "어반플레이",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0100": {
+    "id": "P0100",
+    "name": "WFTO",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0101": {
+    "id": "P0101",
+    "name": "Wild Bird Society of Japan",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0102": {
+    "id": "P0102",
+    "name": "aT농수산식품유통공사",
+    "lat": 3397.206759,
+    "lng": 11561.081767000001,
+    "address": "경기도 성남시 분당구 운중로 229 3층",
+    "naver_title": "aT한국농수산식품유통공사 서울경기지역본부",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0103": {
+    "id": "P0103",
+    "name": "ac",
+    "lat": 3413.265198,
+    "lng": 11551.371811,
+    "address": "서울특별시 중구 청계천로 30",
+    "naver_title": "예금보험공사 전기차충전소",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0104": {
+    "id": "P0104",
+    "name": "af",
+    "lat": 3413.752593,
+    "lng": 11551.90003,
+    "address": "서울특별시 종로구 인사동4길 17",
+    "naver_title": "에이에프컴퍼니",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0105": {
+    "id": "P0105",
+    "name": "arts & culture",
+    "lat": 3413.10993,
+    "lng": 11550.946768,
+    "address": "서울특별시 중구 세종대로19길 16",
+    "naver_title": "국립정동극장 세실",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0106": {
+    "id": "P0106",
+    "name": "ba",
+    "lat": 3412.5974250000004,
+    "lng": 11549.835430000001,
+    "address": "서울특별시 서대문구 충정로 24 1층",
+    "naver_title": "비에이글",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0107": {
+    "id": "P0107",
+    "name": "category",
+    "lat": 3412.030776,
+    "lng": 11544.456157,
+    "address": "서울특별시 마포구 망원로6길 49",
+    "naver_title": "category9",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0108": {
+    "id": "P0108",
+    "name": "cb",
+    "lat": 3412.9455540000004,
+    "lng": 11560.043383,
+    "address": "서울특별시 광진구 동일로 386 1층 카오디오뱅크",
+    "naver_title": "카오디오뱅크",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0109": {
+    "id": "P0109",
+    "name": "cd",
+    "lat": 3413.3704079999998,
+    "lng": 11551.497685,
+    "address": "서울특별시 종로구 청계천로 41 지하2층",
+    "naver_title": "THE STAGE by musicart",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0110": {
+    "id": "P0110",
+    "name": "ce",
+    "lat": 3410.149515,
+    "lng": 11553.208575999999,
+    "address": "서울특별시 용산구 대사관로 25 3F",
+    "naver_title": "Atelier de Cemoment",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0111": {
+    "id": "P0111",
+    "name": "da",
+    "lat": 3413.818041,
+    "lng": 11552.163307,
+    "address": "서울특별시 종로구 삼일대로32가길 33 호텔다다",
+    "naver_title": "호텔 다다",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0112": {
+    "id": "P0112",
+    "name": "dc",
+    "lat": 3413.24034,
+    "lng": 11551.47658,
+    "address": "서울특별시 중구 다동길 43",
+    "naver_title": "한국관광공사 옆 노상 공영주차장 전기차충전소",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0113": {
+    "id": "P0113",
+    "name": "enspiral (뉴질랜드)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0114": {
+    "id": "P0114",
+    "name": "fb",
+    "lat": 3413.3579520000003,
+    "lng": 11552.996842,
+    "address": "서울특별시 종로구 청계천로 191-6",
+    "naver_title": "효성FB",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0115": {
+    "id": "P0115",
+    "name": "hb",
+    "lat": 3413.4373410000003,
+    "lng": 11551.271470000002,
+    "address": "서울특별시 종로구 종로1가",
+    "naver_title": "(삼성.캐리어에어컨.냉난방기.TV.냉장고.제빙기.렌탈HB",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0116": {
+    "id": "P0116",
+    "name": "ihub (케냐)",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0117": {
+    "id": "P0117",
+    "name": "keyword",
+    "lat": 3407.146503,
+    "lng": 11555.326258000001,
+    "address": "서울특별시 서초구 서초대로77길 39",
+    "naver_title": "강남 파티룸 키워드 스튜디오 1호점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0118": {
+    "id": "P0118",
+    "name": "sbs",
+    "lat": 3409.741626,
+    "lng": 11541.73768,
+    "address": "서울특별시 양천구 목동서로 161 SBS 방송센터",
+    "naver_title": "SBS",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0119": {
+    "id": "P0119",
+    "name": "the SMC",
+    "lat": 3413.450499,
+    "lng": 11555.924587000001,
+    "address": "서울특별시 동대문구 무학로16길 17 3층 301호",
+    "naver_title": "UM 음악연습실 왕십리점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0120": {
+    "id": "P0120",
+    "name": "㈜그린아워",
+    "lat": 3387.634665,
+    "lng": 11558.284792,
+    "address": "경기도 수원시 영통구 광교호수공원로 277",
+    "naver_title": "아워그린푸드",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0121": {
+    "id": "P0121",
+    "name": "가톨릭사회경제연대사회적협동조합",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0122": {
+    "id": "P0122",
+    "name": "강남구청",
+    "lat": 3408.65745,
+    "lng": 11557.375180000001,
+    "address": "서울특별시 강남구 학동로 426 강남구청",
+    "naver_title": "강남구청",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0123": {
+    "id": "P0123",
+    "name": "강동구사회적경제지원센터",
+    "lat": 3410.0767410000003,
+    "lng": 11565.108826000001,
+    "address": "서울특별시 강동구 성안로 108 강동구 사회적경제지원센터",
+    "naver_title": "강동구 사회적경제지원센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0124": {
+    "id": "P0124",
+    "name": "강동구청",
+    "lat": 3409.3324140000004,
+    "lng": 11564.662606,
+    "address": "서울특별시 강동구 성안로 7-13 1층",
+    "naver_title": "강경불고기 강동구청점",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0125": {
+    "id": "P0125",
+    "name": "강릉생명의숲",
+    "lat": 3431.3453160000004,
+    "lng": 11725.046484999999,
+    "address": "강원특별자치도 강릉시 성덕포남로188번길 22 풀씨터 3층",
+    "naver_title": "강원영동생명의숲",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0126": {
+    "id": "P0126",
+    "name": "강북구청",
+    "lat": 3419.2355730000004,
+    "lng": 11555.730619,
+    "address": "서울특별시 강북구 덕릉로 138 창강빌딩",
+    "naver_title": "강북구청 창강빌딩 임시청사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0127": {
+    "id": "P0127",
+    "name": "강서구청",
+    "lat": 3411.684321,
+    "lng": 11539.567780000001,
+    "address": "서울특별시 강서구 화곡로 302 강서구청",
+    "naver_title": "강서구청",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0128": {
+    "id": "P0128",
+    "name": "강서양천교육청",
+    "lat": 3410.8389690000004,
+    "lng": 11537.753785,
+    "address": "서울특별시 양천구 월정로 269",
+    "naver_title": "강서양천교육지원청",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0129": {
+    "id": "P0129",
+    "name": "강원:감자꽃스튜디오",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0130": {
+    "id": "P0130",
+    "name": "강원교육청",
+    "lat": 3443.777583,
+    "lng": 11618.40292,
+    "address": "강원특별자치도 춘천시 영서로 2854 강원특별자치도특별자치도교육청",
+    "naver_title": "강원도특별자치도교육청",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0131": {
+    "id": "P0131",
+    "name": "강원도농아인협회",
+    "lat": 3393.280068,
+    "lng": 11638.892194,
+    "address": "강원특별자치도 원주시 원일로 38 3층",
+    "naver_title": "한국농아인협회 강원특별자치도협회 원주시지회",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0132": {
+    "id": "P0132",
+    "name": "강원랜드",
+    "lat": 3380.700462,
+    "lng": 11718.492856,
+    "address": "강원특별자치도 정선군 고한읍 하이원길 424",
+    "naver_title": "하이원리조트",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0133": {
+    "id": "P0133",
+    "name": "강원창조경제 춘천별빛센터",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0134": {
+    "id": "P0134",
+    "name": "강원창조경제혁신센터",
+    "lat": 3442.2378900000003,
+    "lng": 11619.864385,
+    "address": "강원특별자치도 춘천시 후석로462번길 7 춘천ICT벤처센터 5층",
+    "naver_title": "강원창조경제혁신센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0135": {
+    "id": "P0135",
+    "name": "개발협력연대(DAK)",
+    "lat": 3399.474165,
+    "lng": 11562.049069,
+    "address": "경기도 성남시 수정구 대왕판교로 825 한국국제협력단 민관협력실",
+    "naver_title": "DAK개발협력연대",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0136": {
+    "id": "P0136",
+    "name": "개화3리마을회",
+    "lat": 3298.861437,
+    "lng": 11521.850542,
+    "address": "충청남도 보령시 성주면 개화리 440-4",
+    "naver_title": "개화3리마을회",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0137": {
+    "id": "P0137",
+    "name": "건강보험공단",
+    "lat": 3413.340384,
+    "lng": 11551.425288999999,
+    "address": "서울특별시 종로구 청계천로 35 , 15층 16층",
+    "naver_title": "국민건강보험공단 종로지사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0138": {
+    "id": "P0138",
+    "name": "건강세상네트워크",
+    "lat": 3412.282812,
+    "lng": 11550.242023,
+    "address": "서울특별시 중구 청파로103길 35 3층",
+    "naver_title": "건강세상네트워크",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0139": {
+    "id": "P0139",
+    "name": "건국대학교",
+    "lat": 3411.049947,
+    "lng": 11559.935923000001,
+    "address": "서울특별시 광진구 능동로 120",
+    "naver_title": "건국대학교 서울캠퍼스",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0140": {
+    "id": "P0140",
+    "name": "건신대학교대학원",
+    "lat": 3301.8898830000003,
+    "lng": 11589.636751,
+    "address": "대전광역시 중구 동서대로1327번길 40",
+    "naver_title": "건신대학원대학교",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0141": {
+    "id": "P0141",
+    "name": "게이법조회",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0142": {
+    "id": "P0142",
+    "name": "결혼이민가족지원연대",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0143": {
+    "id": "P0143",
+    "name": "경기관광공사",
+    "lat": 3390.4305600000002,
+    "lng": 11552.158042000001,
+    "address": "경기도 수원시 장안구 경수대로 1150 신관 4,5층",
+    "naver_title": "경기관광공사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0144": {
+    "id": "P0144",
+    "name": "경기광역자활센터",
+    "lat": 3385.838103,
+    "lng": 11553.353476,
+    "address": "경기도 수원시 권선구 권선로 472 세지빌딩 5층",
+    "naver_title": "경기광역자활센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0145": {
+    "id": "P0145",
+    "name": "경기교육청",
+    "lat": 3388.1139510000003,
+    "lng": 11558.003938,
+    "address": "경기도 수원시 영통구 도청로 28",
+    "naver_title": "경기도교육청 남부청사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0146": {
+    "id": "P0146",
+    "name": "경기도공공구매활성화지원단",
+    "lat": null,
+    "lng": null,
+    "source": "not_found",
+    "is_resident": false
+  },
+  "P0147": {
+    "id": "P0147",
+    "name": "경기도교육청",
+    "lat": 3388.1139510000003,
+    "lng": 11558.003938,
+    "address": "경기도 수원시 영통구 도청로 28",
+    "naver_title": "경기도교육청 남부청사",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0148": {
+    "id": "P0148",
+    "name": "경기도따복공동체지원센터",
+    "lat": 3429.525228,
+    "lng": 11559.42799,
+    "address": "경기도 의정부시 청사로5번길 8-7 2층",
+    "naver_title": "경기도 마을공동체지원센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0149": {
+    "id": "P0149",
+    "name": "경기도서민금융복지지원센터",
+    "lat": 3407.4232530000004,
+    "lng": 11532.04,
+    "address": "경기도 부천시 원미구 길주로 210",
+    "naver_title": "경기도서민금융복지지원센터 부천센터",
+    "source": "naver",
+    "is_resident": false
+  },
+  "P0150": {
+    "id": "P0150",
+    "name": "경기도용인교육지원청",
+    "lat": 3383.9352510000003,
+    "lng": 11569.290171999999,
+    "address": "경기도 용인시 처인구 중부대로1161번길 69",
+    "naver_title": "용인교육지원청",
+    "source": "naver",
+    "is_resident": false
+  }
+}

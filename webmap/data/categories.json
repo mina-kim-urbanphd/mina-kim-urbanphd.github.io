@@ -1,0 +1,178 @@
+{
+  "codes": {
+    "aa": {
+      "code": "aa",
+      "name": "지방정부",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "ba": {
+      "code": "ba",
+      "name": "기업",
+      "sector": "Business",
+      "color": "#F5A623"
+    },
+    "ca": {
+      "code": "ca",
+      "name": "SEOs",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "da": {
+      "code": "da",
+      "name": "혁신파크 입주 중간지원조직",
+      "sector": "Intermediate",
+      "color": "#9B59B6"
+    },
+    "ad": {
+      "code": "ad",
+      "name": "연구소",
+      "sector": "Research",
+      "color": "#E74C3C"
+    },
+    "ab": {
+      "code": "ab",
+      "name": "중앙정부",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "bb": {
+      "code": "bb",
+      "name": "방송",
+      "sector": "Business",
+      "color": "#F5A623"
+    },
+    "cb": {
+      "code": "cb",
+      "name": "협회 재단",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "db": {
+      "code": "db",
+      "name": "외부 중간지원조직",
+      "sector": "Intermediate",
+      "color": "#9B59B6"
+    },
+    "cd": {
+      "code": "cd",
+      "name": "연구소",
+      "sector": "Research",
+      "color": "#E74C3C"
+    },
+    "ac": {
+      "code": "ac",
+      "name": "학교",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "bc": {
+      "code": "bc",
+      "name": "기타(문화/예술, 건축)",
+      "sector": "Business",
+      "color": "#F5A623"
+    },
+    "cc": {
+      "code": "cc",
+      "name": "협동조합",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "dc": {
+      "code": "dc",
+      "name": "기타(민간)",
+      "sector": "Intermediate",
+      "color": "#9B59B6"
+    },
+    "ha": {
+      "code": "ha",
+      "name": "대학",
+      "sector": "Research",
+      "color": "#E74C3C"
+    },
+    "ae": {
+      "code": "ae",
+      "name": "지방하위기관",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "g": {
+      "code": "g",
+      "name": "투자기관",
+      "sector": "Other",
+      "color": "#95A5A6"
+    },
+    "ce": {
+      "code": "ce",
+      "name": "기타(위원회 등)",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "hb": {
+      "code": "hb",
+      "name": "국립연구소",
+      "sector": "Research",
+      "color": "#E74C3C"
+    },
+    "ag": {
+      "code": "ag",
+      "name": "공공기관,공기업",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "fa": {
+      "code": "fa",
+      "name": "혁신파크 SEOs(현재)",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "af": {
+      "code": "af",
+      "name": "기타 공공시설(도서관 등)",
+      "sector": "Government",
+      "color": "#4A90D9"
+    },
+    "fb": {
+      "code": "fb",
+      "name": "혁신파크 SEOs(과거)",
+      "sector": "Civil",
+      "color": "#7ED321"
+    },
+    "e": {
+      "code": "e",
+      "name": "해외조직",
+      "sector": "International",
+      "color": "#1ABC9C"
+    }
+  },
+  "sectors": {
+    "Government": {
+      "name": "Government",
+      "color": "#4A90D9"
+    },
+    "Business": {
+      "name": "Business",
+      "color": "#F5A623"
+    },
+    "Civil": {
+      "name": "Civil",
+      "color": "#7ED321"
+    },
+    "Intermediate": {
+      "name": "Intermediate",
+      "color": "#9B59B6"
+    },
+    "Research": {
+      "name": "Research",
+      "color": "#E74C3C"
+    },
+    "International": {
+      "name": "International",
+      "color": "#1ABC9C"
+    },
+    "Other": {
+      "name": "Other",
+      "color": "#95A5A6"
+    }
+  }
+}
