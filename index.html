@@ -375,9 +375,19 @@
     }
     .lightbox.open { display: flex; }
     .lightbox img {
-      max-width: 90vw; max-height: 90vh; object-fit: contain;
+      max-width: 80vw; max-height: 90vh; object-fit: contain;
       border-radius: 4px;
     }
+    .lightbox-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(255,255,255,0.15); border: none; color: #fff;
+      font-size: 2rem; width: 48px; height: 48px; border-radius: 50%;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .lightbox-arrow:hover { background: rgba(255,255,255,0.3); }
+    .lightbox-arrow.prev { left: 20px; }
+    .lightbox-arrow.next { right: 20px; }
 
     @media (max-width: 640px) {
       .portfolio-images.cols-3,
@@ -987,7 +997,9 @@
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
+  <button class="lightbox-arrow prev" id="lb-prev">&#8249;</button>
   <img src="" alt="Enlarged view" id="lightbox-img">
+  <button class="lightbox-arrow next" id="lb-next">&#8250;</button>
 </div>
 
 <!-- Footer -->
@@ -1025,16 +1037,44 @@
     });
   });
 
-  // Portfolio lightbox
+  // Portfolio lightbox with prev/next
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
-  document.querySelectorAll('.portfolio-images img').forEach(img => {
+  const allImages = Array.from(document.querySelectorAll('.portfolio-images img'));
+  let currentIdx = 0;
+
+  function showImage(idx) {
+    currentIdx = (idx + allImages.length) % allImages.length;
+    lightboxImg.src = allImages[currentIdx].src;
+  }
+
+  allImages.forEach((img, i) => {
     img.addEventListener('click', () => {
+      currentIdx = i;
       lightboxImg.src = img.src;
       lightbox.classList.add('open');
     });
   });
-  lightbox.addEventListener('click', () => lightbox.classList.remove('open'));
+
+  document.getElementById('lb-prev').addEventListener('click', (e) => {
+    e.stopPropagation();
+    showImage(currentIdx - 1);
+  });
+  document.getElementById('lb-next').addEventListener('click', (e) => {
+    e.stopPropagation();
+    showImage(currentIdx + 1);
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) lightbox.classList.remove('open');
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft') showImage(currentIdx - 1);
+    else if (e.key === 'ArrowRight') showImage(currentIdx + 1);
+    else if (e.key === 'Escape') lightbox.classList.remove('open');
+  });
 </script>
 
 </body>
